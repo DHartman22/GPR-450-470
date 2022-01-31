@@ -540,6 +540,8 @@ MonoBehaviour:
   initialPress: {x: 0, y: 0}
   velocity: 0
   deviation: 0
+  timeBetweenPositionChecks: 0.01667
+  timeSinceLastPositionCheck: 0
   totalLineDistance: 0
   slashDeviationLimit: 0.12
   slashVelocityRequirement: 0.5

@@ -16,7 +16,8 @@ public class CursorManager : MonoBehaviour
     public Vector2 initialPress;
     public float velocity;
     public float deviation;
-
+    public float timeBetweenPositionChecks = 16.67f;
+    public float timeSinceLastPositionCheck = 0;
     [SerializeField]
     float totalLineDistance;
 
@@ -34,19 +35,54 @@ public class CursorManager : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if(Input.GetMouseButtonDown(0))
+        
+        //if (Input.GetMouseButtonDown(0))
+        //{
+        //    lineRenderer.positionCount = 0;
+        //    lastMousePositions.Clear();
+        //}
+        //if(Input.GetMouseButton(0))
+        //{
+        //    ProcessInput();
+        //}
+        //else if(Input.GetMouseButtonUp(0))
+        //{
+        //    Debug.Log("M Up");
+        //    if(lineRenderer.positionCount < positionsToTrack)
+        //    {
+        //        return;
+        //    }
+        //    SlashCheck();
+        //    lineRenderer.positionCount = 0;
+        //    lastMousePositions.Clear();
+        //}
+        //else
+        //{
+        //    lineRenderer.positionCount = 0;
+        //    lastMousePositions.Clear();
+        //}
+    }
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
         {
             lineRenderer.positionCount = 0;
             lastMousePositions.Clear();
         }
-        if(Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0))
         {
-            ProcessInput();
+            timeSinceLastPositionCheck += Time.deltaTime;
+            if (timeSinceLastPositionCheck >= timeBetweenPositionChecks)
+            {
+                timeSinceLastPositionCheck -= timeBetweenPositionChecks; //Carries leftover time over to next cycle
+                ProcessInput();
+            }
         }
-        else if(Input.GetMouseButtonUp(0))
+        else if (Input.GetMouseButtonUp(0))
         {
             Debug.Log("M Up");
-            if(lineRenderer.positionCount < positionsToTrack)
+            if (lineRenderer.positionCount < positionsToTrack)
             {
                 return;
             }
@@ -59,6 +95,39 @@ public class CursorManager : MonoBehaviour
             lineRenderer.positionCount = 0;
             lastMousePositions.Clear();
         }
+    }
+
+    void InputLoop()
+    {
+        //if (timeSinceLastPositionCheck >= timeBetweenPositionChecks)
+        //{
+        //    timeSinceLastPositionCheck -= timeBetweenPositionChecks; //Carries leftover time over to next cycle
+        //}
+        //if (Input.GetMouseButtonDown(0))
+        //{
+        //    lineRenderer.positionCount = 0;
+        //    lastMousePositions.Clear();
+        //}
+        //if (Input.GetMouseButton(0))
+        //{
+        //    ProcessInput();
+        //}
+        //else if (Input.GetMouseButtonUp(0))
+        //{
+        //    Debug.Log("M Up");
+        //    if (lineRenderer.positionCount < positionsToTrack)
+        //    {
+        //        return;
+        //    }
+        //    SlashCheck();
+        //    lineRenderer.positionCount = 0;
+        //    lastMousePositions.Clear();
+        //}
+        //else
+        //{
+        //    lineRenderer.positionCount = 0;
+        //    lastMousePositions.Clear();
+        //}
     }
 
     void ProcessInput()
