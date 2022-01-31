@@ -65,6 +65,11 @@ public class CursorManager : MonoBehaviour
 
     private void Update()
     {
+        InputLoop();
+    }
+
+    void InputLoop()
+    {
         if (Input.GetMouseButtonDown(0))
         {
             lineRenderer.positionCount = 0;
@@ -97,39 +102,6 @@ public class CursorManager : MonoBehaviour
         }
     }
 
-    void InputLoop()
-    {
-        //if (timeSinceLastPositionCheck >= timeBetweenPositionChecks)
-        //{
-        //    timeSinceLastPositionCheck -= timeBetweenPositionChecks; //Carries leftover time over to next cycle
-        //}
-        //if (Input.GetMouseButtonDown(0))
-        //{
-        //    lineRenderer.positionCount = 0;
-        //    lastMousePositions.Clear();
-        //}
-        //if (Input.GetMouseButton(0))
-        //{
-        //    ProcessInput();
-        //}
-        //else if (Input.GetMouseButtonUp(0))
-        //{
-        //    Debug.Log("M Up");
-        //    if (lineRenderer.positionCount < positionsToTrack)
-        //    {
-        //        return;
-        //    }
-        //    SlashCheck();
-        //    lineRenderer.positionCount = 0;
-        //    lastMousePositions.Clear();
-        //}
-        //else
-        //{
-        //    lineRenderer.positionCount = 0;
-        //    lastMousePositions.Clear();
-        //}
-    }
-
     void ProcessInput()
     {
         RecordPosition();
@@ -141,7 +113,7 @@ public class CursorManager : MonoBehaviour
 
     private void PlayerDragCheck()
     {
-        //if()
+        if()
         throw new NotImplementedException();
     }
 

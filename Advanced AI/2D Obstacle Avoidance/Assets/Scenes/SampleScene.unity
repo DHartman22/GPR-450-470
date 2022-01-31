@@ -237,13 +237,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c46a0d94afad440b8554d1b1e3976d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agentDirection: {x: 0.1, y: 0}
+  agentDirection: {x: 0.19, y: 0.24}
+  leftRayDir: {x: 0, y: 0}
+  rightRayDir: {x: 0, y: 0}
+  desiredDirection: {x: 0, y: 0}
   maxDistance: 4
-  speed: 0.015
+  speed: 0
   obstacleMask:
     serializedVersion: 2
     m_Bits: 64
   obstacleDetected: 0
+  timeSpentTurning: 0
+  maximumTurnTime: 1
+  angleDifferenceBetweenRays: 30
 --- !u!212 &723354689
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -304,7 +310,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 723354687}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.37, y: 0.07, z: 0}
+  m_LocalPosition: {x: -5.97, y: 0.12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -440,7 +446,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1115175451}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.26, y: 0.12, z: 0}
+  m_LocalPosition: {x: 0.21, y: -0.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
