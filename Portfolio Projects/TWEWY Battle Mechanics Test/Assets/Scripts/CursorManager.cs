@@ -6,7 +6,6 @@ using UnityEngine;
 //Decides what action will be executed based off the cursor's movement. 
 public class CursorManager : MonoBehaviour
 {
-    public float movementDragRadius = 1f;
     public List<Vector2> lastMousePositions = new List<Vector2>();
     public int positionsToTrack = 5;
     public float mouseVelocity = 0f;
@@ -18,6 +17,9 @@ public class CursorManager : MonoBehaviour
     public float deviation;
     public float timeBetweenPositionChecks = 16.67f;
     public float timeSinceLastPositionCheck = 0;
+    public FollowMouseMovement playerMovement;
+
+
     [SerializeField]
     float totalLineDistance;
 
@@ -32,37 +34,6 @@ public class CursorManager : MonoBehaviour
         lastMousePositions = new List<Vector2>();
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        
-        //if (Input.GetMouseButtonDown(0))
-        //{
-        //    lineRenderer.positionCount = 0;
-        //    lastMousePositions.Clear();
-        //}
-        //if(Input.GetMouseButton(0))
-        //{
-        //    ProcessInput();
-        //}
-        //else if(Input.GetMouseButtonUp(0))
-        //{
-        //    Debug.Log("M Up");
-        //    if(lineRenderer.positionCount < positionsToTrack)
-        //    {
-        //        return;
-        //    }
-        //    SlashCheck();
-        //    lineRenderer.positionCount = 0;
-        //    lastMousePositions.Clear();
-        //}
-        //else
-        //{
-        //    lineRenderer.positionCount = 0;
-        //    lastMousePositions.Clear();
-        //}
-    }
-
     private void Update()
     {
         InputLoop();
@@ -74,6 +45,7 @@ public class CursorManager : MonoBehaviour
         {
             lineRenderer.positionCount = 0;
             lastMousePositions.Clear();
+            initialPress = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         }
         if (Input.GetMouseButton(0))
         {
@@ -86,12 +58,18 @@ public class CursorManager : MonoBehaviour
         }
         else if (Input.GetMouseButtonUp(0))
         {
-            Debug.Log("M Up");
             if (lineRenderer.positionCount < positionsToTrack)
             {
                 return;
             }
-            SlashCheck();
+            if(playerMovement.moving)
+            {
+                playerMovement.EndMove();
+            }
+            else
+            {
+                SlashCheck();
+            }
             lineRenderer.positionCount = 0;
             lastMousePositions.Clear();
         }
@@ -108,13 +86,15 @@ public class CursorManager : MonoBehaviour
         CalculateVelocityDeviation();
         DrawCursorTrail();
         //SlashCheck();
-        //PlayerDragCheck();
+        PlayerDragCheck();
     }
 
     private void PlayerDragCheck()
     {
-        if()
-        throw new NotImplementedException();
+        if(Vector2.Distance(initialPress, playerMovement.gameObject.transform.position) < playerMovement.playerDragRadius || playerMovement.moving)
+        {
+            playerMovement.Move(lastMousePositions[0]);
+        }
     }
 
     private void CalculateVelocityDeviation()
@@ -131,6 +111,8 @@ public class CursorManager : MonoBehaviour
             velocity = totalLineDistance / (positionsToTrack); //
         }
     }
+
+    
 
     private void SlashCheck()
     {
@@ -180,6 +162,11 @@ public class CursorManager : MonoBehaviour
         {
             lastMousePositions.RemoveAt(lastMousePositions.Count - 1);
         }
+    }
+
+    public Vector2 GetLatestPosition()
+    {
+        return lastMousePositions[0];
     }
 
     //private void OnDrawGizmos()

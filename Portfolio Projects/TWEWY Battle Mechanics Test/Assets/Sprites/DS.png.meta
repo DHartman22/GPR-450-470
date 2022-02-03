@@ -1,0 +1,7959 @@
+fileFormatVersion: 2
+guid: e04dc0790cd7eae43922d4dbbac0f287
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7622750006410280053
+    second: Neku (1)_0
+  - first:
+      213: -738766725495308616
+    second: Neku (1)_1
+  - first:
+      213: -1940629887993693173
+    second: Neku (1)_2
+  - first:
+      213: -2156474804952856767
+    second: Neku (1)_3
+  - first:
+      213: 8475654476207309147
+    second: Neku (1)_4
+  - first:
+      213: -7106479206813444378
+    second: Neku (1)_5
+  - first:
+      213: 5387717664335334736
+    second: Neku (1)_6
+  - first:
+      213: 6429210680534895401
+    second: Neku (1)_7
+  - first:
+      213: 6427680285166036202
+    second: Neku (1)_8
+  - first:
+      213: -4839384710334943711
+    second: Neku (1)_9
+  - first:
+      213: -2607878524908734886
+    second: Neku (1)_10
+  - first:
+      213: -4582990623203264609
+    second: Neku (1)_11
+  - first:
+      213: -7467320845446491569
+    second: Neku (1)_12
+  - first:
+      213: -1264835229133207018
+    second: Neku (1)_13
+  - first:
+      213: -4141206701535945217
+    second: Neku (1)_14
+  - first:
+      213: -6920813933776571782
+    second: Neku (1)_15
+  - first:
+      213: 5992728546541689012
+    second: Neku (1)_16
+  - first:
+      213: -869468779564831497
+    second: Neku (1)_17
+  - first:
+      213: 6846740215139207089
+    second: Neku (1)_18
+  - first:
+      213: -3815754732955057994
+    second: Neku (1)_19
+  - first:
+      213: 7006240250347839385
+    second: Neku (1)_20
+  - first:
+      213: 6489682012264669572
+    second: Neku (1)_21
+  - first:
+      213: 3820082667831836095
+    second: Neku (1)_22
+  - first:
+      213: -5543716156787221468
+    second: Neku (1)_23
+  - first:
+      213: -5402152009288592231
+    second: Neku (1)_24
+  - first:
+      213: 5326416093431036999
+    second: Neku (1)_25
+  - first:
+      213: 5902320720396572431
+    second: Neku (1)_26
+  - first:
+      213: 5662554132265400995
+    second: Neku (1)_27
+  - first:
+      213: -4063383816608712933
+    second: Neku (1)_28
+  - first:
+      213: -1214629628289665429
+    second: Neku (1)_29
+  - first:
+      213: -7428444102222475655
+    second: Neku (1)_30
+  - first:
+      213: 1019402710208378514
+    second: Neku (1)_31
+  - first:
+      213: 9194609476654552586
+    second: Neku (1)_32
+  - first:
+      213: -631618993976658090
+    second: Neku (1)_33
+  - first:
+      213: -4516163377109754726
+    second: Neku (1)_34
+  - first:
+      213: 7734141138537594006
+    second: Neku (1)_35
+  - first:
+      213: -7019679505276477316
+    second: Neku (1)_36
+  - first:
+      213: 1778518748199030404
+    second: Neku (1)_37
+  - first:
+      213: 565019368397281030
+    second: Neku (1)_38
+  - first:
+      213: 8467479699849901503
+    second: Neku (1)_39
+  - first:
+      213: 1654500657958029416
+    second: Neku (1)_40
+  - first:
+      213: 5242381910955955129
+    second: Neku (1)_41
+  - first:
+      213: 2707595258585145043
+    second: Neku (1)_42
+  - first:
+      213: -7290401447454811300
+    second: Neku (1)_43
+  - first:
+      213: 3235068578235953820
+    second: Neku (1)_44
+  - first:
+      213: 3889210629309882462
+    second: Neku (1)_45
+  - first:
+      213: 7107109916510916416
+    second: Neku (1)_46
+  - first:
+      213: -2506576314228223863
+    second: Neku (1)_47
+  - first:
+      213: -4533169818952947628
+    second: Neku (1)_48
+  - first:
+      213: -4469500602207085152
+    second: Neku (1)_49
+  - first:
+      213: 6429742945655950671
+    second: Neku (1)_50
+  - first:
+      213: -6030012365505276093
+    second: Neku (1)_51
+  - first:
+      213: 7767078186272169000
+    second: Neku (1)_52
+  - first:
+      213: 4896406397571929009
+    second: Neku (1)_53
+  - first:
+      213: -8448995596332676923
+    second: Neku (1)_54
+  - first:
+      213: 7372767703949062509
+    second: Neku (1)_55
+  - first:
+      213: -1763879110844596427
+    second: Neku (1)_56
+  - first:
+      213: -8774223776400111258
+    second: Neku (1)_57
+  - first:
+      213: 6251428096100080293
+    second: Neku (1)_58
+  - first:
+      213: 5530884051265965142
+    second: Neku (1)_59
+  - first:
+      213: -9005636788166396775
+    second: Neku (1)_60
+  - first:
+      213: 5948763859868551672
+    second: Neku (1)_61
+  - first:
+      213: -3825465830116575325
+    second: Neku (1)_62
+  - first:
+      213: -620330608625269508
+    second: Neku (1)_63
+  - first:
+      213: 5720570220754132709
+    second: Neku (1)_64
+  - first:
+      213: 8547039410775208981
+    second: Neku (1)_65
+  - first:
+      213: -5985863525927653947
+    second: Neku (1)_66
+  - first:
+      213: -901979936139873769
+    second: Neku (1)_67
+  - first:
+      213: -8135602423836672698
+    second: Neku (1)_68
+  - first:
+      213: 871326016843290136
+    second: Neku (1)_69
+  - first:
+      213: 8490918928446312672
+    second: Neku (1)_70
+  - first:
+      213: 8768954790856979243
+    second: Neku (1)_71
+  - first:
+      213: 5006494362953471113
+    second: Neku (1)_72
+  - first:
+      213: -1442235301399011516
+    second: Neku (1)_73
+  - first:
+      213: 6167704641617152123
+    second: Neku (1)_74
+  - first:
+      213: 2230941122588571896
+    second: Neku (1)_75
+  - first:
+      213: -6470063700414484174
+    second: Neku (1)_76
+  - first:
+      213: -9179006312884370324
+    second: Neku (1)_77
+  - first:
+      213: 46241403544599089
+    second: Neku (1)_78
+  - first:
+      213: -5929312170327526588
+    second: Neku (1)_79
+  - first:
+      213: 964531315524652757
+    second: Neku (1)_80
+  - first:
+      213: -9004955341478532399
+    second: Neku (1)_81
+  - first:
+      213: -8038465820148172418
+    second: Neku (1)_82
+  - first:
+      213: 4090351241236046367
+    second: Neku (1)_83
+  - first:
+      213: -7664869001452966255
+    second: Neku (1)_84
+  - first:
+      213: -3715171230285177289
+    second: Neku (1)_85
+  - first:
+      213: 7246125798374864173
+    second: Neku (1)_86
+  - first:
+      213: 2305922660756457751
+    second: Neku (1)_87
+  - first:
+      213: -7436223528973805943
+    second: Neku (1)_88
+  - first:
+      213: 6536811696764065314
+    second: Neku (1)_89
+  - first:
+      213: 6780330555537198333
+    second: Neku (1)_90
+  - first:
+      213: 893826271351935705
+    second: Neku (1)_91
+  - first:
+      213: 7157740748450577013
+    second: Neku (1)_92
+  - first:
+      213: 8854629281413673728
+    second: Neku (1)_93
+  - first:
+      213: 7775970701212108254
+    second: Neku (1)_94
+  - first:
+      213: 4491687559113528206
+    second: Neku (1)_95
+  - first:
+      213: 8225763478107741007
+    second: Neku (1)_96
+  - first:
+      213: 8742667973838478632
+    second: Neku (1)_97
+  - first:
+      213: -5056133060080307512
+    second: Neku (1)_98
+  - first:
+      213: 134350633403423876
+    second: Neku (1)_99
+  - first:
+      213: 1028162331842895318
+    second: Neku (1)_100
+  - first:
+      213: 6341656167278581714
+    second: Neku (1)_101
+  - first:
+      213: -8877834554618626346
+    second: Neku (1)_102
+  - first:
+      213: -3084204575631715678
+    second: Neku (1)_103
+  - first:
+      213: -719168712313977888
+    second: Neku (1)_104
+  - first:
+      213: 6693853623410831657
+    second: Neku (1)_105
+  - first:
+      213: -58317140989458191
+    second: Neku (1)_106
+  - first:
+      213: -5412595518380215719
+    second: Neku (1)_107
+  - first:
+      213: 4428473143950067315
+    second: Neku (1)_108
+  - first:
+      213: -3381921186802109262
+    second: Neku (1)_109
+  - first:
+      213: 8935622956188303284
+    second: Neku (1)_110
+  - first:
+      213: 8225137477889146000
+    second: Neku (1)_111
+  - first:
+      213: 1823275752274656539
+    second: Neku (1)_112
+  - first:
+      213: 7426346188756359186
+    second: Neku (1)_113
+  - first:
+      213: -2667464652004376817
+    second: Neku (1)_114
+  - first:
+      213: 8250631534387520857
+    second: Neku (1)_115
+  - first:
+      213: 3891884102780074045
+    second: Neku (1)_116
+  - first:
+      213: -5022406520544937782
+    second: Neku (1)_117
+  - first:
+      213: -3991054148910152825
+    second: Neku (1)_118
+  - first:
+      213: -4858093619287413649
+    second: Neku (1)_119
+  - first:
+      213: -1406683444942244555
+    second: Neku (1)_120
+  - first:
+      213: 8952442610126956480
+    second: Neku (1)_121
+  - first:
+      213: -4889450787897051678
+    second: Neku (1)_122
+  - first:
+      213: -8867995432934995155
+    second: Neku (1)_123
+  - first:
+      213: -193685975366876775
+    second: Neku (1)_124
+  - first:
+      213: -66907759366649635
+    second: Neku (1)_125
+  - first:
+      213: -914780624324881985
+    second: Neku (1)_126
+  - first:
+      213: 9164325887119030621
+    second: Neku (1)_127
+  - first:
+      213: -8309130809236226819
+    second: Neku (1)_128
+  - first:
+      213: -1480313043897891905
+    second: Neku (1)_129
+  - first:
+      213: -5506156028018793491
+    second: Neku (1)_130
+  - first:
+      213: -6440015571962958069
+    second: Neku (1)_131
+  - first:
+      213: -2810703416849600474
+    second: Neku (1)_132
+  - first:
+      213: 8503090896176900104
+    second: Neku (1)_133
+  - first:
+      213: -8101128970801337111
+    second: Neku (1)_134
+  - first:
+      213: -8533102913203260745
+    second: Neku (1)_135
+  - first:
+      213: 2576246140347955916
+    second: Neku (1)_136
+  - first:
+      213: 2395908044321128035
+    second: Neku (1)_137
+  - first:
+      213: 3860352570666049717
+    second: Neku (1)_138
+  - first:
+      213: 3819916616081240747
+    second: Neku (1)_139
+  - first:
+      213: 2473444452227704046
+    second: Neku (1)_140
+  - first:
+      213: -6700049617881476011
+    second: Neku (1)_141
+  - first:
+      213: 1321289973520307943
+    second: Neku (1)_142
+  - first:
+      213: -5855148735944838689
+    second: Neku (1)_143
+  - first:
+      213: -4285939019369672286
+    second: Neku (1)_144
+  - first:
+      213: -517396060598659491
+    second: Neku (1)_145
+  - first:
+      213: -7495476464540206449
+    second: Neku (1)_146
+  - first:
+      213: -1826997650992843164
+    second: Neku (1)_147
+  - first:
+      213: -6892043258921763441
+    second: Neku (1)_148
+  - first:
+      213: -5923574594072999600
+    second: Neku (1)_149
+  - first:
+      213: -4813821416019317684
+    second: Neku (1)_150
+  - first:
+      213: 3394119958896195762
+    second: Neku (1)_151
+  - first:
+      213: 2496855968093193306
+    second: Neku (1)_152
+  - first:
+      213: -7642710866289065079
+    second: Neku (1)_153
+  - first:
+      213: -2983761977417642029
+    second: Neku (1)_154
+  - first:
+      213: -8006789955759340065
+    second: Neku (1)_155
+  - first:
+      213: 607173293232204810
+    second: Neku (1)_156
+  - first:
+      213: -4537206255371922668
+    second: Neku (1)_157
+  - first:
+      213: -9028868101626370858
+    second: Neku (1)_158
+  - first:
+      213: -7937664722773505510
+    second: Neku (1)_159
+  - first:
+      213: 9083240300735356166
+    second: Neku (1)_160
+  - first:
+      213: 4230806442429598994
+    second: Neku (1)_161
+  - first:
+      213: -6985481329325319341
+    second: Neku (1)_162
+  - first:
+      213: 3326182189065125919
+    second: Neku (1)_163
+  - first:
+      213: -7861929367287996670
+    second: Neku (1)_164
+  - first:
+      213: -810990904735416061
+    second: Neku (1)_165
+  - first:
+      213: -5197333415852998708
+    second: Neku (1)_166
+  - first:
+      213: -3529348794982863491
+    second: Neku (1)_167
+  - first:
+      213: -657272942449948249
+    second: Neku (1)_168
+  - first:
+      213: 4323378384818067252
+    second: Neku (1)_169
+  - first:
+      213: -1259812783140257024
+    second: Neku (1)_170
+  - first:
+      213: 2261404730466497376
+    second: Neku (1)_171
+  - first:
+      213: -1866906681360942463
+    second: Neku (1)_172
+  - first:
+      213: -3812133593270365719
+    second: Neku (1)_173
+  - first:
+      213: -1352791000289030136
+    second: Neku (1)_174
+  - first:
+      213: -2845333543135930901
+    second: Neku (1)_175
+  - first:
+      213: -4403184842344852541
+    second: Neku (1)_176
+  - first:
+      213: 5809399679830649313
+    second: Neku (1)_177
+  - first:
+      213: 3735641882437364576
+    second: Neku (1)_178
+  - first:
+      213: -4333109045808460173
+    second: Neku (1)_179
+  - first:
+      213: -6376032338871667048
+    second: Neku (1)_180
+  - first:
+      213: 426578273933628614
+    second: Neku (1)_181
+  - first:
+      213: -8361013144406257899
+    second: Neku (1)_182
+  - first:
+      213: -542732728476994069
+    second: Neku (1)_183
+  - first:
+      213: 3046673249064830341
+    second: Neku (1)_184
+  - first:
+      213: 1915385822309033891
+    second: Neku (1)_185
+  - first:
+      213: 3205122963781688562
+    second: Neku (1)_186
+  - first:
+      213: 2222859754301840455
+    second: Neku (1)_187
+  - first:
+      213: -3614401550072785966
+    second: Neku (1)_188
+  - first:
+      213: 5745724260985308132
+    second: Neku (1)_189
+  - first:
+      213: -6438824633801713579
+    second: Neku (1)_190
+  - first:
+      213: -5923073979698355278
+    second: Neku (1)_191
+  - first:
+      213: 2720229610300911116
+    second: Neku (1)_192
+  - first:
+      213: -8070018808911196082
+    second: Neku (1)_193
+  - first:
+      213: -9058728366501614767
+    second: Neku (1)_194
+  - first:
+      213: -7020895427941162938
+    second: Neku (1)_195
+  - first:
+      213: 8480913822812467263
+    second: Neku (1)_196
+  - first:
+      213: -2373304729029854575
+    second: Neku (1)_197
+  - first:
+      213: 3644944360002174465
+    second: Neku (1)_198
+  - first:
+      213: -270699936179690212
+    second: Neku (1)_199
+  - first:
+      213: 5004976801657079795
+    second: Neku (1)_200
+  - first:
+      213: 3430885518640420930
+    second: Neku (1)_201
+  - first:
+      213: 2015494234646759166
+    second: Neku (1)_202
+  - first:
+      213: 4525007920689696376
+    second: Neku (1)_203
+  - first:
+      213: 4990598438674349512
+    second: Neku (1)_204
+  - first:
+      213: 6274156361932158817
+    second: Neku (1)_205
+  - first:
+      213: -4386171531112158530
+    second: Neku (1)_206
+  - first:
+      213: 4102741249423057354
+    second: Neku (1)_207
+  - first:
+      213: 2003793058042847224
+    second: Neku (1)_208
+  - first:
+      213: -2687878720053595193
+    second: Neku (1)_209
+  - first:
+      213: -487874006730326050
+    second: Neku (1)_210
+  - first:
+      213: 3713518831706927813
+    second: Neku (1)_211
+  - first:
+      213: 5237392661879663177
+    second: Neku (1)_212
+  - first:
+      213: -7197256513590943865
+    second: Neku (1)_213
+  - first:
+      213: -325432013118019749
+    second: Neku (1)_214
+  - first:
+      213: -2496277320654845894
+    second: Neku (1)_215
+  - first:
+      213: -1612319573356739567
+    second: Neku (1)_216
+  - first:
+      213: -3371465977347086531
+    second: Neku (1)_217
+  - first:
+      213: 6486453342640652749
+    second: Neku (1)_218
+  - first:
+      213: 1024914970507286095
+    second: Neku (1)_219
+  - first:
+      213: -700255376102271895
+    second: Neku (1)_220
+  - first:
+      213: 8091708648815193621
+    second: Neku (1)_221
+  - first:
+      213: 990121683929719391
+    second: Neku (1)_222
+  - first:
+      213: -4305783732571605326
+    second: Neku (1)_223
+  - first:
+      213: -1627492285555023836
+    second: Neku (1)_224
+  - first:
+      213: 1155401621569747828
+    second: Neku (1)_225
+  - first:
+      213: 495928534966487498
+    second: Neku (1)_226
+  - first:
+      213: 4909209940170186427
+    second: Neku (1)_227
+  - first:
+      213: 4710660496833363397
+    second: Neku (1)_228
+  - first:
+      213: -7783668405433756734
+    second: Neku (1)_229
+  - first:
+      213: -5626040999827243896
+    second: Neku (1)_230
+  - first:
+      213: -8178217953334087472
+    second: Neku (1)_231
+  - first:
+      213: -8722719514756098040
+    second: Neku (1)_232
+  - first:
+      213: 1785688813631129260
+    second: Neku (1)_233
+  - first:
+      213: -2809974617023090251
+    second: Neku (1)_234
+  - first:
+      213: -1418569221126064574
+    second: Neku (1)_235
+  - first:
+      213: 8978245871960074506
+    second: Neku (1)_236
+  - first:
+      213: 2223704342421279715
+    second: Neku (1)_237
+  - first:
+      213: 3402490943573432268
+    second: Neku (1)_238
+  - first:
+      213: 6048144608183484897
+    second: Neku (1)_239
+  - first:
+      213: -3421072220064461758
+    second: Neku (1)_240
+  - first:
+      213: 3865847963955780686
+    second: Neku (1)_241
+  - first:
+      213: 1277474768818699221
+    second: Neku (1)_242
+  - first:
+      213: 4085409895809925477
+    second: Neku (1)_243
+  - first:
+      213: -6832539628874177238
+    second: Neku (1)_244
+  - first:
+      213: -5435720842420708810
+    second: Neku (1)_245
+  - first:
+      213: 2644029272011170797
+    second: Neku (1)_246
+  - first:
+      213: -7775213805970741047
+    second: Neku (1)_247
+  - first:
+      213: -1734685859039814458
+    second: Neku (1)_248
+  - first:
+      213: -3057705662374529578
+    second: Neku (1)_249
+  - first:
+      213: -7434705157311949564
+    second: Neku (1)_250
+  - first:
+      213: 1760369405031854897
+    second: Neku (1)_251
+  - first:
+      213: -8589575821319440647
+    second: Neku (1)_252
+  - first:
+      213: -1767547049766257543
+    second: Neku (1)_253
+  - first:
+      213: -8526153852088319854
+    second: Neku (1)_254
+  - first:
+      213: -477684211484936572
+    second: Neku (1)_255
+  - first:
+      213: -1767094182129891886
+    second: Neku (1)_256
+  - first:
+      213: -4989092759268605852
+    second: Neku (1)_257
+  - first:
+      213: 2358861904189322629
+    second: Neku (1)_258
+  - first:
+      213: -2918606821165442271
+    second: Neku (1)_259
+  - first:
+      213: -6717886471032638106
+    second: Neku (1)_260
+  - first:
+      213: 6839078175859339066
+    second: Neku (1)_261
+  - first:
+      213: -4005452646994118384
+    second: Neku (1)_262
+  - first:
+      213: 1708806617016645928
+    second: Neku (1)_263
+  - first:
+      213: -5590754203903673757
+    second: Neku (1)_264
+  - first:
+      213: 1735909061196931343
+    second: Neku (1)_265
+  - first:
+      213: -3197208695107394355
+    second: Neku (1)_266
+  - first:
+      213: -6594913218074416368
+    second: Neku (1)_267
+  - first:
+      213: 7810140348472953630
+    second: Neku (1)_268
+  - first:
+      213: -4142163101539126820
+    second: Neku (1)_269
+  - first:
+      213: 4123464593691904499
+    second: Neku (1)_270
+  - first:
+      213: 3892106056671407498
+    second: Neku (1)_271
+  - first:
+      213: -1028672831498871220
+    second: Neku (1)_272
+  - first:
+      213: 1778422271974752146
+    second: Neku (1)_273
+  - first:
+      213: 756196133876660094
+    second: Neku (1)_274
+  - first:
+      213: -1852660171054387456
+    second: Neku (1)_275
+  - first:
+      213: -7222796038733061791
+    second: Neku (1)_276
+  - first:
+      213: 788760948560610128
+    second: Neku (1)_277
+  - first:
+      213: -6245299849219219401
+    second: Neku (1)_278
+  - first:
+      213: 2298054137203606110
+    second: Neku (1)_279
+  - first:
+      213: -4359404840052921126
+    second: Neku (1)_280
+  - first:
+      213: 8220812901513715787
+    second: Neku (1)_281
+  - first:
+      213: 761082653315838757
+    second: Neku (1)_282
+  - first:
+      213: -3739337395642279248
+    second: Neku (1)_283
+  - first:
+      213: -4642144241008752621
+    second: Neku (1)_284
+  - first:
+      213: 78114160277330314
+    second: Neku (1)_285
+  - first:
+      213: -2251511610879039367
+    second: Neku (1)_286
+  - first:
+      213: 7414483305442627529
+    second: Neku (1)_287
+  - first:
+      213: 509125225687830942
+    second: Neku (1)_288
+  - first:
+      213: -228000847416823716
+    second: Neku (1)_289
+  - first:
+      213: -831436922070840711
+    second: Neku (1)_290
+  - first:
+      213: 4672527764801897312
+    second: Neku (1)_291
+  - first:
+      213: 5871762426723576184
+    second: Neku (1)_292
+  - first:
+      213: 721889931209104886
+    second: Neku (1)_293
+  - first:
+      213: 8803205802295043346
+    second: Neku (1)_294
+  - first:
+      213: -3462886046121311561
+    second: Neku (1)_295
+  - first:
+      213: -1039559715079073567
+    second: Neku (1)_296
+  - first:
+      213: 1750975115575139146
+    second: Neku (1)_297
+  - first:
+      213: -429405363319426907
+    second: Neku (1)_298
+  - first:
+      213: -1725338941377463575
+    second: Neku (1)_299
+  - first:
+      213: 5427211886413254638
+    second: Neku (1)_300
+  - first:
+      213: -5029745571864232910
+    second: Neku (1)_301
+  - first:
+      213: 2713397688482406362
+    second: Neku (1)_302
+  - first:
+      213: 9094139340924783833
+    second: Neku (1)_303
+  - first:
+      213: -6800301190705472161
+    second: Neku (1)_304
+  - first:
+      213: -1094037206740836992
+    second: Neku (1)_305
+  - first:
+      213: 3490190049650300315
+    second: Neku (1)_306
+  - first:
+      213: -6922044129823401702
+    second: Neku (1)_307
+  - first:
+      213: -699647145411936277
+    second: Neku (1)_308
+  - first:
+      213: 5399711991549231533
+    second: Neku (1)_309
+  - first:
+      213: -1539897953818189718
+    second: Neku (1)_310
+  - first:
+      213: 8456667390530635699
+    second: Neku (1)_311
+  - first:
+      213: -2360640811231890245
+    second: Neku (1)_312
+  - first:
+      213: 6538654687345337712
+    second: Neku (1)_313
+  - first:
+      213: -2982536322409135055
+    second: Neku (1)_314
+  - first:
+      213: -1398995465242441691
+    second: Neku (1)_315
+  - first:
+      213: 533122460040115514
+    second: Neku (1)_316
+  - first:
+      213: 7122515960046192984
+    second: Neku (1)_317
+  - first:
+      213: 6714065186990302797
+    second: Neku (1)_318
+  - first:
+      213: -1859668438791862289
+    second: Neku (1)_319
+  - first:
+      213: -659758977351701203
+    second: Neku (1)_320
+  - first:
+      213: 1013330850676267520
+    second: Neku (1)_321
+  - first:
+      213: -3762020722331176324
+    second: Neku (1)_322
+  - first:
+      213: 1696283059030202812
+    second: Neku (1)_323
+  - first:
+      213: 3271837902787522656
+    second: Neku (1)_324
+  - first:
+      213: -3540209199000520339
+    second: Neku (1)_325
+  - first:
+      213: -5027587759763893948
+    second: Neku (1)_326
+  - first:
+      213: -7102260556110084506
+    second: running
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Neku (1)_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1315
+        width: 23
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b830f48914d863690800000000000000
+      internalID: -7622750006410280053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1314
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be39fac39f5fb5f0800000000000000
+      internalID: -738766725495308616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1314
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c31a5166f7115e0800000000000000
+      internalID: -1940629887993693173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1316
+        width: 23
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14784b32799a212e0800000000000000
+      internalID: -2156474804952856767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1316
+        width: 23
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51494517d29f9570800000000000000
+      internalID: 8475654476207309147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1316
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e65f2a20d6b06d90800000000000000
+      internalID: -7106479206813444378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_6
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1316
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d0ecc9ba405ca40800000000000000
+      internalID: 5387717664335334736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_7
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1317
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b0e6fec05293950800000000000000
+      internalID: 6429210680534895401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_8
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1318
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae46a1ff925b33950800000000000000
+      internalID: 6427680285166036202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_9
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1317
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e67010f3d07dcb0800000000000000
+      internalID: -4839384710334943711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_10
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1316
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56f1797c44fecbd0800000000000000
+      internalID: -2607878524908734886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_11
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1316
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97f5075f42f560c0800000000000000
+      internalID: -4582990623203264609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_12
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1317
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42da4f214fbe5890800000000000000
+      internalID: -7467320845446491569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1238
+        width: 22
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a8d1c7f07627ee0800000000000000
+      internalID: -1264835229133207018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_14
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1242
+        width: 21
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd9b7d227a7786c0800000000000000
+      internalID: -4141206701535945217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1241
+        width: 21
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a727ca0356454ff90800000000000000
+      internalID: -6920813933776571782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_16
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1244
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8d5fbbcd27a2350800000000000000
+      internalID: 5992728546541689012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_17
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1238
+        width: 22
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fceeba60c60fe3f0800000000000000
+      internalID: -869468779564831497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_18
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1242
+        width: 21
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b701c833f1840f50800000000000000
+      internalID: 6846740215139207089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_19
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1241
+        width: 21
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0c2308947bb0bc0800000000000000
+      internalID: -3815754732955057994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_20
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1244
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fd605136a2b3160800000000000000
+      internalID: 7006240250347839385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_21
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1249
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4812746086bff0a50800000000000000
+      internalID: 6489682012264669572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_22
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1244
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd3ebc52f8a30530800000000000000
+      internalID: 3820082667831836095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_23
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1248
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c9a1bf683c013b0800000000000000
+      internalID: -5543716156787221468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_24
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1246
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994d0bf8e53b705b0800000000000000
+      internalID: -5402152009288592231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_25
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1245
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c71e6673b3be940800000000000000
+      internalID: 5326416093431036999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_26
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1244
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f075aa16c6149e150800000000000000
+      internalID: 5902320720396572431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_27
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1246
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa79175bfe659e40800000000000000
+      internalID: 5662554132265400995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_28
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1245
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1777f092f5fb97c0800000000000000
+      internalID: -4063383816608712933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_29
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1175
+        width: 21
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b663128d9c4c42fe0800000000000000
+      internalID: -1214629628289665429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_30
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1175
+        width: 19
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e0f25527dd8e890800000000000000
+      internalID: -7428444102222475655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_31
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1168
+        width: 22
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2967a092d55a52e00800000000000000
+      internalID: 1019402710208378514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1177
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a065f689a90d99f70800000000000000
+      internalID: 9194609476654552586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_33
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1175
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657b1a61fd90c37f0800000000000000
+      internalID: -631618993976658090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_34
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1175
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c9ebf065d5351c0800000000000000
+      internalID: -4516163377109754726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_35
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1169
+        width: 21
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cb4456360355b60800000000000000
+      internalID: 7734141138537594006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_36
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1179
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70e7ea8ea6159e90800000000000000
+      internalID: -7019679505276477316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_37
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1179
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e86c4e0619ea810800000000000000
+      internalID: 1778518748199030404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_38
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1180
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60719883f1a57d700800000000000000
+      internalID: 565019368397281030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_39
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1178
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb57264ace7828570800000000000000
+      internalID: 8467479699849901503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_40
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1186
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8680d3e1597f5f610800000000000000
+      internalID: 1654500657958029416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_41
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1182
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3967b929ea0c840800000000000000
+      internalID: 5242381910955955129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_42
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1181
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dedf7fca8f439520800000000000000
+      internalID: 2707595258585145043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_43
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1180
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b567e728a43da90800000000000000
+      internalID: -7290401447454811300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_44
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1187
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9238c55bb545ec20800000000000000
+      internalID: 3235068578235953820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_45
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1100
+        width: 29
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5060b0267049f530800000000000000
+      internalID: 3889210629309882462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_46
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1101
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f0a4160d681a260800000000000000
+      internalID: 7107109916510916416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_47
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1100
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980d4046f1ad63dd0800000000000000
+      internalID: -2506576314228223863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_48
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1099
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458a9c24112f611c0800000000000000
+      internalID: -4533169818952947628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_49
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1099
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad5d0af1e429f1c0800000000000000
+      internalID: -4469500602207085152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_50
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1098
+        width: 29
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d85e094290b3950800000000000000
+      internalID: 6429742945655950671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_51
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1101
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34758d2b3b7115ca0800000000000000
+      internalID: -6030012365505276093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_52
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1101
+        width: 25
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c107b65743acb60800000000000000
+      internalID: 7767078186272169000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_53
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1101
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b399332da783f340800000000000000
+      internalID: 4896406397571929009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_54
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1100
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c840c315432fba80800000000000000
+      internalID: -8448995596332676923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_55
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1100
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d613b550a25515660800000000000000
+      internalID: 7372767703949062509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_56
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1104
+        width: 29
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f306b4b417587e0800000000000000
+      internalID: -1763879110844596427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_57
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1104
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66982e396f1bb3680800000000000000
+      internalID: -8774223776400111258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_58
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1104
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa11fe5bb881c650800000000000000
+      internalID: 6251428096100080293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_59
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1104
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cc491adb5a1cc40800000000000000
+      internalID: 5530884051265965142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_60
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1106
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994f6291e0d850380800000000000000
+      internalID: -9005636788166396775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_61
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1106
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9852076314e8250800000000000000
+      internalID: 5948763859868551672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_62
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1033
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7b18f781739eac0800000000000000
+      internalID: -3825465830116575325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_63
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1034
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4c69d19942467f0800000000000000
+      internalID: -620330608625269508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_64
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1037
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee5ab09e4c836f40800000000000000
+      internalID: 5720570220754132709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_65
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1037
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51435885f0f2d9670800000000000000
+      internalID: 8547039410775208981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_66
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1037
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd6d1f66d0fdeca0800000000000000
+      internalID: -5985863525927653947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_67
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1037
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7127ad7e6068b73f0800000000000000
+      internalID: -901979936139873769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_68
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1039
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d786523b8881f80800000000000000
+      internalID: -8135602423836672698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_69
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1030
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81610855562971c00800000000000000
+      internalID: 871326016843290136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_70
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1029
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0dea257cdc5d570800000000000000
+      internalID: 8490918928446312672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_71
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1031
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b237d702ce591b970800000000000000
+      internalID: 8768954790856979243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_72
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1031
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98456d9f814aa7540800000000000000
+      internalID: 5006494362953471113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_73
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1032
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f559972a62cfbe0800000000000000
+      internalID: -1442235301399011516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_74
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1032
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b784e1391b6189550800000000000000
+      internalID: 6167704641617152123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_75
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1030
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8f3b68125e5fe10800000000000000
+      internalID: 2230941122588571896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_76
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 970
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23135a62857b536a0800000000000000
+      internalID: -6470063700414484174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_77
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 974
+        width: 58
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c648571146e9d9080800000000000000
+      internalID: -9179006312884370324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_78
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 967
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13af030cf4844a000800000000000000
+      internalID: 46241403544599089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_79
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 969
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4433a35fef9d6bda0800000000000000
+      internalID: -5929312170327526588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_80
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 972
+        width: 59
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de46940f14b26d00800000000000000
+      internalID: 964531315524652757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_81
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 971
+        width: 58
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da6ae4c3d8f70380800000000000000
+      internalID: -9004955341478532399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_82
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 970
+        width: 63
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79f2fa1de1a17090800000000000000
+      internalID: -8038465820148172418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_83
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 969
+        width: 53
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12e37448c8d3c830800000000000000
+      internalID: 4090351241236046367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_84
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 923
+        width: 51
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e2e7ed04ae0a590800000000000000
+      internalID: -7664869001452966255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_85
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 969
+        width: 23
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ed91b237f017cc0800000000000000
+      internalID: -3715171230285177289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_86
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 961
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d257de1a5096f8460800000000000000
+      internalID: 7246125798374864173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_87
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 884
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71989e15178400020800000000000000
+      internalID: 2305922660756457751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_88
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 885
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9865d15691a3dc890800000000000000
+      internalID: -7436223528973805943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_89
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 885
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2269d3dca9b67ba50800000000000000
+      internalID: 6536811696764065314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_90
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 885
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc858e67b2981e50800000000000000
+      internalID: 6780330555537198333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_91
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 885
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d218d21242876c00800000000000000
+      internalID: 893826271351935705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 885
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a3cb19947655360800000000000000
+      internalID: 7157740748450577013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_93
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 884
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0033f68ea66f1ea70800000000000000
+      internalID: 8854629281413673728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_94
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 884
+        width: 19
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5c795672cc9eb60800000000000000
+      internalID: 7775970701212108254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_95
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 884
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83d00b790ea55e30800000000000000
+      internalID: 4491687559113528206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_96
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 884
+        width: 19
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b5ef62d48c72270800000000000000
+      internalID: 8225763478107741007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_97
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 885
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d93d99332345970800000000000000
+      internalID: 8742667973838478632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_98
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 923
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2fdc835c105d9b0800000000000000
+      internalID: -5056133060080307512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_99
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 923
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c1c53703f4dd100800000000000000
+      internalID: 134350633403423876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_100
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 924
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dddee08134c44e00800000000000000
+      internalID: 1028162331842895318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_101
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 924
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d71e424fa6120850800000000000000
+      internalID: 6341656167278581714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_102
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 924
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6deb44562889bc480800000000000000
+      internalID: -8877834554618626346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_103
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 898
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a256de7744b235d0800000000000000
+      internalID: -3084204575631715678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_104
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 895
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e343f0dddff406f0800000000000000
+      internalID: -719168712313977888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_105
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 815
+        width: 23
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9213dd9a76855ec50800000000000000
+      internalID: 6693853623410831657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_106
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 817
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8c1078ed0d03ff0800000000000000
+      internalID: -58317140989458191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_107
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 817
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952731e9d0992e4b0800000000000000
+      internalID: -5412595518380215719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_108
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 817
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37640828cd8157d30800000000000000
+      internalID: 4428473143950067315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_109
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 817
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4fa4a49900111d0800000000000000
+      internalID: -3381921186802109262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_110
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 817
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bffd665cb5b10c70800000000000000
+      internalID: 8935622956188303284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_111
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 816
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cb55e15fe852270800000000000000
+      internalID: 8225137477889146000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_112
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 816
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1df9e5f2a39d4910800000000000000
+      internalID: 1823275752274656539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_113
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 817
+        width: 29
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21816ef138eaf0760800000000000000
+      internalID: 7426346188756359186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_114
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 822
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f3e5628034bfad0800000000000000
+      internalID: -2667464652004376817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_115
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 820
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955edc3baa1208270800000000000000
+      internalID: 8250631534387520857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_116
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 820
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38323da8ffb20630800000000000000
+      internalID: 3891884102780074045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_117
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 741
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8305121e3dc4ab0800000000000000
+      internalID: -5022406520544937782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_118
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 744
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7838cd6a56dec98c0800000000000000
+      internalID: -3991054148910152825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_119
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 741
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c28c0b795949cb0800000000000000
+      internalID: -4858093619287413649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_120
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 742
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5357bc81cd47a7ce0800000000000000
+      internalID: -1406683444942244555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_121
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 742
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c720b03f177d3c70800000000000000
+      internalID: 8952442610126956480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_122
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 743
+        width: 25
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e574a0f96e252cb0800000000000000
+      internalID: -4889450787897051678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_123
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 749
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b8f1e632d8ee480800000000000000
+      internalID: -8867995432934995155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_124
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 750
+        width: 18
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9914840b1a3ef4df0800000000000000
+      internalID: -193685975366876775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_125
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 751
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8cb325fbb421ff0800000000000000
+      internalID: -66907759366649635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_126
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 744
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb194bf6edb0e43f0800000000000000
+      internalID: -914780624324881985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_127
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 745
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5975a3f6d93e2f70800000000000000
+      internalID: 9164325887119030621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_128
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 746
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc783b7d8900bc80800000000000000
+      internalID: -8309130809236226819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_129
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 745
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3c61e212fd47be0800000000000000
+      internalID: -1480313043897891905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_130
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 673
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de36010f3443693b0800000000000000
+      internalID: -5506156028018793491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_131
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 673
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fe92d35f770a6a0800000000000000
+      internalID: -6440015571962958069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_132
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 676
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620f3b552206ef8d0800000000000000
+      internalID: -2810703416849600474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_133
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 674
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8086b776e1c010670800000000000000
+      internalID: 8503090896176900104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_134
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 674
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eca2c76f12039f80800000000000000
+      internalID: -8101128970801337111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_135
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 674
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b23baa5c14549980800000000000000
+      internalID: -8533102913203260745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_136
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 675
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca3961173aa0c320800000000000000
+      internalID: 2576246140347955916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_137
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 678
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ef2481ca9ff3120800000000000000
+      internalID: 2395908044321128035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_138
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 678
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0e052c53ab29530800000000000000
+      internalID: 3860352570666049717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_139
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 677
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2722d6ce1130530800000000000000
+      internalID: 3819916616081240747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_140
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 677
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee461badf90735220800000000000000
+      internalID: 2473444452227704046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_141
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 677
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554dea4fe54a403a0800000000000000
+      internalID: -6700049617881476011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_142
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 677
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e696fcfa3a265210800000000000000
+      internalID: 1321289973520307943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_143
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 596
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd13eee1f355ebea0800000000000000
+      internalID: -5855148735944838689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_144
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 594
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a11c757b294584c0800000000000000
+      internalID: -4285939019369672286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_145
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 595
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5694df2607d1d8f0800000000000000
+      internalID: -517396060598659491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_146
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 596
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ab7c44ed7baf790800000000000000
+      internalID: -7495476464540206449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_147
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 595
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4663917f05335a6e0800000000000000
+      internalID: -1826997650992843164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_148
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 596
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8db75feb2b8a50a0800000000000000
+      internalID: -6892043258921763441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_149
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 599
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05900c78a4c3bcda0800000000000000
+      internalID: -5923574594072999600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_150
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 599
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c20064deed13db0800000000000000
+      internalID: -4813821416019317684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_151
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 601
+        width: 59
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8321bae165a1f20800000000000000
+      internalID: 3394119958896195762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_152
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 601
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a544289264d96a220800000000000000
+      internalID: 2496855968093193306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_153
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 598
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98382ddb5f2afe590800000000000000
+      internalID: -7642710866289065079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_154
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 508
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df44b94a4c8796d0800000000000000
+      internalID: -2983761977417642029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_155
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 508
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd58ccff4fa22e090800000000000000
+      internalID: -8006789955759340065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_156
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 508
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ca53ca4ec1d6800800000000000000
+      internalID: 607173293232204810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_157
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 507
+        width: 32
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41350eb23fa9801c0800000000000000
+      internalID: -4537206255371922668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_158
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 509
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d464be6c4403b280800000000000000
+      internalID: -9028868101626370858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_159
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 508
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a8fec7dffb7d190800000000000000
+      internalID: -7937664722773505510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_160
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 508
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60dd7deade62e0e70800000000000000
+      internalID: 9083240300735356166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_161
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 506
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d437a2b08d6ba30800000000000000
+      internalID: 4230806442429598994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_162
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 508
+        width: 31
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bd07cddb59e0f90800000000000000
+      internalID: -6985481329325319341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_163
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 507
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10457df319f82e20800000000000000
+      internalID: 3326182189065125919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_164
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 507
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f569d05e0d4e290800000000000000
+      internalID: -7861929367287996670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_165
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 504
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3014c27a118ceb4f0800000000000000
+      internalID: -810990904735416061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_166
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 424
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf70d08bcc5fd7b0800000000000000
+      internalID: -5197333415852998708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_167
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 424
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7de79268fb350fc0800000000000000
+      internalID: -3529348794982863491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_168
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 424
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a98bc0cdb5e0e6f0800000000000000
+      internalID: -657272942449948249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_169
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 424
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437dea81cb9bffb30800000000000000
+      internalID: 4323378384818067252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_170
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 424
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003cd61d2fe348ee0800000000000000
+      internalID: -1259812783140257024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_171
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 425
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063f7d4fe9f126f10800000000000000
+      internalID: 2261404730466497376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_172
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 425
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a7dacb34a6716e0800000000000000
+      internalID: -1866906681360942463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_173
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 424
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e159c8c1b4981bc0800000000000000
+      internalID: -3812133593270365719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_174
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 423
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8005d6ca0cbe93de0800000000000000
+      internalID: -1352791000289030136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_175
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 423
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be511edb7385388d0800000000000000
+      internalID: -2845333543135930901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_176
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 423
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c396a707beb4e2c0800000000000000
+      internalID: -4403184842344852541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_177
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 424
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9e292ba322f9050800000000000000
+      internalID: 5809399679830649313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_178
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 424
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b20c2ff7aa7d330800000000000000
+      internalID: 3735641882437364576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_179
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 423
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e0e87d744bdd3c0800000000000000
+      internalID: -4333109045808460173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_180
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 352
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896b6259e58c387a0800000000000000
+      internalID: -6376032338871667048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_181
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 354
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c496b61ea28be500800000000000000
+      internalID: 426578273933628614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_182
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 356
+        width: 61
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f0b4df7d6b7fb80800000000000000
+      internalID: -8361013144406257899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_183
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 357
+        width: 61
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5762f7573d778f0800000000000000
+      internalID: -542732728476994069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_184
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 358
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585c1359d25f74a20800000000000000
+      internalID: 3046673249064830341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_185
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 353
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7ac8ad141d49a10800000000000000
+      internalID: 1915385822309033891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_186
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 352
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc97a5aa52ea7c20800000000000000
+      internalID: 3205122963781688562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_187
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 352
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c5ca85b2f29de10800000000000000
+      internalID: 2222859754301840455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_188
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 352
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d35a4ca0f017ddc0800000000000000
+      internalID: -3614401550072785966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_189
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 308
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e38f51f5c9ecbf40800000000000000
+      internalID: 5745724260985308132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_190
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 240
+        width: 29
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558d6332c13b4a6a0800000000000000
+      internalID: -6438824633801713579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_191
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 309
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b368b5e8930dcda0800000000000000
+      internalID: -5923073979698355278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_192
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 235
+        width: 30
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e2c7d0b6230c520800000000000000
+      internalID: 2720229610300911116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_193
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 237
+        width: 28
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40902c66a8810090800000000000000
+      internalID: -8070018808911196082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_194
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 299
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15baaedbb8ee84280800000000000000
+      internalID: -9058728366501614767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_195
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 302
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640276c7ec4c09e90800000000000000
+      internalID: -7020895427941162938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_196
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 243
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30ff63203242b570800000000000000
+      internalID: 8480913822812467263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_197
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 239
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19abb6a5ce3501fd0800000000000000
+      internalID: -2373304729029854575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_198
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 239
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e3efb6591759230800000000000000
+      internalID: 3644944360002174465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_199
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 253
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15e94f97d74e3cf0800000000000000
+      internalID: -270699936179690212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_200
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 252
+        width: 61
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f747d332ef357540800000000000000
+      internalID: 5004976801657079795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_201
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 255
+        width: 76
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248189b9334fc9f20800000000000000
+      internalID: 3430885518640420930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_202
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 244
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6c7fee35978fb10800000000000000
+      internalID: 2015494234646759166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_203
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 129
+        width: 74
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ec986babe0cce30800000000000000
+      internalID: 4525007920689696376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_204
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 169
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdbdc1b6da224540800000000000000
+      internalID: 4990598438674349512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_205
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 126
+        width: 85
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167393228f7421750800000000000000
+      internalID: 6274156361932158817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_206
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 171
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebae02c3b303123c0800000000000000
+      internalID: -4386171531112158530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_207
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 162
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac12439dd6ddfe830800000000000000
+      internalID: 4102741249423057354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_208
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 172
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff99047b27eecb10800000000000000
+      internalID: 2003793058042847224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_209
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 164
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3bfdb8b8cb2bad0800000000000000
+      internalID: -2687878720053595193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_210
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 124
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf31bdfc29ba39f0800000000000000
+      internalID: -487874006730326050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_211
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 115
+        width: 96
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c27d9ec3b1198330800000000000000
+      internalID: 3713518831706927813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_212
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 138
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a239880e4fea840800000000000000
+      internalID: 5237392661879663177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_213
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 165
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f9b0665553e1c90800000000000000
+      internalID: -7197256513590943865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_214
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 168
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b576f8bee45db7bf0800000000000000
+      internalID: -325432013118019749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_215
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 162
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a380181b0017b5dd0800000000000000
+      internalID: -2496277320654845894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_216
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 164
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11489a5f3e3ef99e0800000000000000
+      internalID: -1612319573356739567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_217
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 148
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3769ef6e852631d0800000000000000
+      internalID: -3371465977347086531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_218
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 159
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1cd3cc2f2840a50800000000000000
+      internalID: 6486453342640652749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_219
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4611164cba393e00800000000000000
+      internalID: 1024914970507286095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_220
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 156
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964dd5f02713846f0800000000000000
+      internalID: -700255376102271895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_221
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 157
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ee596f4268b4070800000000000000
+      internalID: 8091708648815193621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_222
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 146
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52ea07fc6e9dbd00800000000000000
+      internalID: 990121683929719391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_223
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 152
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6f96c1288ce34c0800000000000000
+      internalID: -4305783732571605326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_224
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 147
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420edcc936cf969e0800000000000000
+      internalID: -1627492285555023836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_225
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 150
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b339a37afc80010800000000000000
+      internalID: 1155401621569747828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_226
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 143
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac948a00064e1e600800000000000000
+      internalID: 495928534966487498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_227
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 137
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe19a33e64012440800000000000000
+      internalID: 4909209940170186427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_228
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 143
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdb73383c0af5140800000000000000
+      internalID: 4710660496833363397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_229
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 140
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c390bc23dadaf390800000000000000
+      internalID: -7783668405433756734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_230
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 140
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c7389c4894ce1b0800000000000000
+      internalID: -5626040999827243896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_231
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 123
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0bccbf912218e80800000000000000
+      internalID: -8178217953334087472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_232
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 126
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8085897f0dca2f680800000000000000
+      internalID: -8722719514756098040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_233
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 135
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca64fd7d38a08c810800000000000000
+      internalID: 1785688813631129260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_234
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 134
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1797449f6f009d0800000000000000
+      internalID: -2809974617023090251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_235
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 126
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2467a7d2fca305ce0800000000000000
+      internalID: -1418569221126064574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_236
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 123
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a092c404d03299c70800000000000000
+      internalID: 8978245871960074506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_237
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 131
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e39387515f2cde10800000000000000
+      internalID: 2223704342421279715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_238
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 119
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc79d2b6c73183f20800000000000000
+      internalID: 3402490943573432268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_239
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 121
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e188f80a735fe350800000000000000
+      internalID: 6048144608183484897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_240
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 119
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cc91401f8e580d0800000000000000
+      internalID: -3421072220064461758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_241
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 125
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c5047bd3046a530800000000000000
+      internalID: 3865847963955780686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_242
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 114
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db76fca8808ab110800000000000000
+      internalID: 1277474768818699221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_243
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 120
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561cd91a7aa42b830800000000000000
+      internalID: 4085409895809925477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_244
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 114
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25ec2b6861fd21a0800000000000000
+      internalID: -6832539628874177238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_245
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 115
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a935981b07094b0800000000000000
+      internalID: -5435720842420708810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_246
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 12
+        width: 144
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3e5fd3d9a71b420800000000000000
+      internalID: 2644029272011170797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_247
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 14
+        width: 144
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8a6620d34e81490800000000000000
+      internalID: -7775213805970741047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_248
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 86
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccd907e6682de7e0800000000000000
+      internalID: -1734685859039814458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_249
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5377686e8d095d0800000000000000
+      internalID: -3057705662374529578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_250
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 86
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40518a8dc0f92d890800000000000000
+      internalID: -7434705157311949564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_251
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133b364a5a61e6810800000000000000
+      internalID: 1760369405031854897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_252
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 86
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f678fecc42bbc880800000000000000
+      internalID: -8589575821319440647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_253
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c74e6b2596877e0800000000000000
+      internalID: -1767547049766257543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_254
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 86
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29082f9be340da980800000000000000
+      internalID: -8526153852088319854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_255
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 86
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486b0a39dbcee59f0800000000000000
+      internalID: -477684211484936572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_256
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d50d7d24350a77e0800000000000000
+      internalID: -1767094182129891886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_257
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 86
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460425c919e23cab0800000000000000
+      internalID: -4989092759268605852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_258
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585f761776c5cb020800000000000000
+      internalID: 2358861904189322629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_259
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 86
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bd6614f860f77d0800000000000000
+      internalID: -2918606821165442271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_260
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 84
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66572b4f8d545c2a0800000000000000
+      internalID: -6717886471032638106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_261
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 84
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fe83fad5949ee50800000000000000
+      internalID: 6839078175859339066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_262
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01974431a06c968c0800000000000000
+      internalID: -4005452646994118384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_263
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 86
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8293d158096e6b710800000000000000
+      internalID: 1708806617016645928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_264
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 86
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36abcc13ca6a962b0800000000000000
+      internalID: -5590754203903673757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_265
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 86
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01660b0810371810800000000000000
+      internalID: 1735909061196931343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_266
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 86
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4655f91ab31a3d0800000000000000
+      internalID: -3197208695107394355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_267
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b65289e592a74a0800000000000000
+      internalID: -6594913218074416368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_268
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 86
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b0dac5441336c60800000000000000
+      internalID: 7810140348472953630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_269
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 86
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1b703fa941486c0800000000000000
+      internalID: -4142163101539126820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_270
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f908ee633d793930800000000000000
+      internalID: 4123464593691904499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_271
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 86
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8dab0856d9830630800000000000000
+      internalID: 3892106056671407498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_272
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 86
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e1a68828b69b1f0800000000000000
+      internalID: -1028672831498871220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_273
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 86
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fb2b542a93ea810800000000000000
+      internalID: 1778422271974752146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_274
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 86
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77fd34906c8e7a00800000000000000
+      internalID: 756196133876660094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_275
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fe9c6e3670a46e0800000000000000
+      internalID: -1852660171054387456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_276
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161a732554973cb90800000000000000
+      internalID: -7222796038733061791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_277
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053c7a757ed32fa00800000000000000
+      internalID: 788760948560610128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_278
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 86
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730ec7b40ec3459a0800000000000000
+      internalID: -6245299849219219401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_279
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5243aaef0454ef10800000000000000
+      internalID: 2298054137203606110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_280
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 86
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adce68425684083c0800000000000000
+      internalID: -4359404840052921126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_281
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 86
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b406ca737c1361270800000000000000
+      internalID: 8220812901513715787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_282
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 73
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5233a9b04a8ef8a00800000000000000
+      internalID: 761082653315838757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_283
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 73
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba586553743b1cc0800000000000000
+      internalID: -3739337395642279248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_284
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 73
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3184c8e686ac39fb0800000000000000
+      internalID: -4642144241008752621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_285
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 73
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8912473a64851100800000000000000
+      internalID: 78114160277330314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_286
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 73
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97823e17e1601c0e0800000000000000
+      internalID: -2251511610879039367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_287
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 73
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfc8fd584985e660800000000000000
+      internalID: 7414483305442627529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_288
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 73
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91505ff1b6c01700800000000000000
+      internalID: 509125225687830942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_289
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 73
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c507b31ff6af5dcf0800000000000000
+      internalID: -228000847416823716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_290
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 73
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ac2d646842674f0800000000000000
+      internalID: -831436922070840711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_291
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 73
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063ca28fe3728d040800000000000000
+      internalID: 4672527764801897312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_292
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 73
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879285231d0bc7150800000000000000
+      internalID: 5871762426723576184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_293
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 73
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd56a4511ba40a00800000000000000
+      internalID: 721889931209104886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_294
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 73
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215247a29054b2a70800000000000000
+      internalID: 8803205802295043346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_295
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 71
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2484bfc7b51ffc0800000000000000
+      internalID: -3462886046121311561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_296
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 73
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0d7eb62fdb291f0800000000000000
+      internalID: -1039559715079073567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_297
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 73
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b976e2796bc4810800000000000000
+      internalID: 1750975115575139146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_298
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 73
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0b2bed8127a0af0800000000000000
+      internalID: -429405363319426907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_299
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 73
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea3c02cf5d5e08e0800000000000000
+      internalID: -1725338941377463575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_300
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 73
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef8072c474515b40800000000000000
+      internalID: 5427211886413254638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_301
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 71
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c30761d01c23ab0800000000000000
+      internalID: -5029745571864232910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_302
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 73
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf1c5c42dce7a520800000000000000
+      internalID: 2713397688482406362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_303
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 73
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc0ab93c8fd43e70800000000000000
+      internalID: 9094139340924783833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_304
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 73
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d955ab81a70a1a0800000000000000
+      internalID: -6800301190705472161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_305
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 60
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08dd629f4f231d0f0800000000000000
+      internalID: -1094037206740836992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_306
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 60
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95520cbb55af6030800000000000000
+      internalID: 3490190049650300315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_307
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 60
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a195c4ad985ffef90800000000000000
+      internalID: -6922044129823401702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_308
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 60
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beffa9dc0aa5a46f0800000000000000
+      internalID: -699647145411936277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_309
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 60
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da185b98271afea40800000000000000
+      internalID: 5399711991549231533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_310
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 58
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60e05048fe21aae0800000000000000
+      internalID: -1539897953818189718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_311
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 60
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b74534bf2e1c5570800000000000000
+      internalID: 8456667390530635699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_312
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 60
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4bb3c70b15d3fd0800000000000000
+      internalID: -2360640811231890245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_313
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 60
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075692c7bc7fdba50800000000000000
+      internalID: 6538654687345337712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_314
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 60
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1348a155407eb96d0800000000000000
+      internalID: -2982536322409135055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_315
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 60
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52887db5905c59ce0800000000000000
+      internalID: -1398995465242441691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_316
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 30
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3539748d08066700800000000000000
+      internalID: 533122460040115514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_317
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 30
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8598a99678248d260800000000000000
+      internalID: 7122515960046192984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_318
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 30
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46af5507b62d2d50800000000000000
+      internalID: 6714065186990302797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_319
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 30
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe74ec968612136e0800000000000000
+      internalID: -1859668438791862289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_320
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 30
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2da395a4b018d6f0800000000000000
+      internalID: -659758977351701203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_321
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 30
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ad0823a03101e00800000000000000
+      internalID: 1013330850676267520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_322
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 30
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72bac7c51e9acbc0800000000000000
+      internalID: -3762020722331176324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_323
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 28
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9120474786a8710800000000000000
+      internalID: 1696283059030202812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_324
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 28
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0603f46dc37e76d20800000000000000
+      internalID: 3271837902787522656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_325
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 30
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69f0078d76aedec0800000000000000
+      internalID: -3540209199000520339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neku (1)_326
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 30
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441db2ed19b6a3ab0800000000000000
+      internalID: -5027587759763893948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
