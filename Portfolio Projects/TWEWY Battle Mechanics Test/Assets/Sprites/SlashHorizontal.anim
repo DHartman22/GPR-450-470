@@ -41,6 +41,15 @@ AnimationClip:
     path: 
     classID: 212
     script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 0}
+    - time: 0.68333334
+      value: {fileID: 0}
+    attribute: m_Sprite
+    path: FX
+    classID: 212
+    script: {fileID: 0}
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
@@ -50,6 +59,13 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 0
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 2185896890
       attribute: 0
       script: {fileID: 0}
       typeID: 212
@@ -65,12 +81,14 @@ AnimationClip:
     - {fileID: -8533102913203260745, guid: e04dc0790cd7eae43922d4dbbac0f287, type: 3}
     - {fileID: 2576246140347955916, guid: e04dc0790cd7eae43922d4dbbac0f287, type: 3}
     - {fileID: 2576246140347955916, guid: e04dc0790cd7eae43922d4dbbac0f287, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.68333334
+    m_StopTime: 0.7
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

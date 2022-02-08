@@ -18,9 +18,20 @@ public class FollowMouseMovement : MonoBehaviour
     public Vector2 direction;
     private Rigidbody2D rgd;
     public Animator anim;
-    private SpriteRenderer spriteRenderer;
+    private List<SpriteRenderer> spriteRenderers;
     public bool moving;
     public bool dashing;
+    public bool immobile;
+
+    public bool slashing;
+    public Vector2 slashStartPoint;
+    public Vector2 slashTarget;
+    public float slashTime;
+    public float slashTimeElapsed;
+    public float slashBoostSpeed;
+    public float slashBoostStopRadius;
+    public float slashBoostMaxDistance;
+
     public float dashVelocityRequirement;
     public float distanceVelocityRequirement;
     private CursorManager cursorManager;
@@ -56,13 +67,16 @@ public class FollowMouseMovement : MonoBehaviour
 
     void CheckDirection(Vector2 dir)
     {
-        if (direction.x > 0)
+        for(int i = 0; i < spriteRenderers.Count; i++)
         {
-            spriteRenderer.flipX = true;
-        }
-        else
-        {
-            spriteRenderer.flipX = false;
+            if (direction.x > 0)
+            {
+                spriteRenderers[i].flipX = true;
+            }
+            else
+            {
+                spriteRenderers[i].flipX = false;
+            }
         }
     }
 
@@ -75,7 +89,37 @@ public class FollowMouseMovement : MonoBehaviour
         }
     }
 
+    public void StartSlash(Vector2 target)
+    {
+        if (dashing || slashing || immobile)
+            return;
 
+        slashTarget = target;
+        immobile = true;
+        slashing = true;
+
+        rgd.velocity = Vector2.zero;
+
+        rgd.velocity = (Vector2)(target - (Vector2)transform.position).normalized * slashBoostSpeed;
+        direction = rgd.velocity;
+    }
+
+    void Slash()
+    {
+        slashTimeElapsed += Time.deltaTime;
+        if(Vector2.Distance(slashTarget, transform.position) < slashBoostStopRadius || 
+            Vector2.Distance(slashStartPoint, transform.position) > slashBoostMaxDistance)
+        {
+            rgd.velocity = Vector2.zero;
+        }
+        if(slashTimeElapsed > slashTime)
+        {
+            slashing = false;
+            immobile = false;
+            slashTimeElapsed = 0;
+            return;
+        }
+    }
 
     void Dash()
     {
@@ -116,13 +160,18 @@ public class FollowMouseMovement : MonoBehaviour
     {
         anim.SetBool("Moving", moving);
         anim.SetBool("Dash", dashing);
+        anim.SetBool("Slash", slashing);
     }
 
     // Start is called before the first frame update
     void Start()
     {
         rgd = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+
+        spriteRenderers = new List<SpriteRenderer>();
+        spriteRenderers.AddRange(GetComponents<SpriteRenderer>());
+        spriteRenderers.AddRange(GetComponentsInChildren<SpriteRenderer>());
+
         cursorManager = FindObjectOfType<CursorManager>();
     }
 
@@ -137,6 +186,10 @@ public class FollowMouseMovement : MonoBehaviour
         if(dashing)
         {
             Dash();
+        }
+        if(slashing)
+        {
+            Slash();
         }
         UpdateAnimBools();
     }

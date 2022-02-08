@@ -19,6 +19,8 @@ public class CursorManager : MonoBehaviour
     public float timeSinceLastPositionCheck = 0;
     public FollowMouseMovement playerMovement;
 
+    public LayerMask enemy;
+    public LayerMask player;
 
     [SerializeField]
     float totalLineDistance;
@@ -132,6 +134,32 @@ public class CursorManager : MonoBehaviour
             if(deviation <= slashDeviationLimit && velocity >= slashVelocityRequirement)
             {
                 Debug.Log("Success! Velocity = " + velocity + ", deviation = " + deviation);
+
+                //Raycast to determine what is being slashed
+
+                for (int i = 0; i < lastMousePositions.Count - 1; i++) 
+                {
+                    RaycastHit2D hit = Physics2D.Raycast(lastMousePositions[i], lastMousePositions[lastMousePositions.Count - 1]);
+
+                    if (hit.collider != null)
+                    {
+                        if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Enemy"))
+                        {
+                            Debug.Log("Slash Enemy");
+                            playerMovement.StartSlash(hit.collider.transform.position);
+                            return;
+                        }
+                        else if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Player"))
+                        {
+                            Debug.Log("Slash Player");
+                        }
+                    }
+                    else
+                    {
+                        Debug.Log("Slash Empty Space");
+                    }
+                }
+                
             }
             else
             {
@@ -169,13 +197,8 @@ public class CursorManager : MonoBehaviour
         return lastMousePositions[0];
     }
 
-    //private void OnDrawGizmos()
-    //{
-    //    for(int i = 0; i < lastMousePositions.Count; i++)
-    //    {
-    //        Gizmos.color = Color.green;
-    //        Gizmos.DrawCube(lastMousePositions[i], Vector3.one);
-            
-    //    }
-    //}
+    private void OnDrawGizmos()
+    { 
+        //Gizmos.DrawLine(lastMousePositions[0], lastMousePositions[lastMousePositions.Count-1]);
+    }
 }
