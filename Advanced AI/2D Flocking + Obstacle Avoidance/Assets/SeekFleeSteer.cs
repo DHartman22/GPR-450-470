@@ -17,7 +17,7 @@ public class SeekFleeSteer : MonoBehaviour
 
     public Vector2 GetSteering(Vector2 position, Vector2 velocity)
     {
-        if (mode == SeekOrFlee.Seek)
+        if (mode == SeekOrFlee.Flee)
         {
             Vector2 desiredVel = (transform.position - seekFleePoint.position).normalized * maxSpeed;
             return desiredVel - velocity;

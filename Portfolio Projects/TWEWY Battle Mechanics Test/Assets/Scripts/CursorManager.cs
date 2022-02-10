@@ -8,6 +8,8 @@ public class CursorManager : MonoBehaviour
 {
     public List<Vector2> lastMousePositions = new List<Vector2>();
     public int positionsToTrack = 5;
+    public int dragPositionsToTrack = 30;
+    public int defaultPositionsToTrack = 5;
     public float mouseVelocity = 0f;
     public int positionFrame = 0;
     public LineRenderer lineRenderer;
@@ -17,7 +19,7 @@ public class CursorManager : MonoBehaviour
     public float deviation;
     public float timeBetweenPositionChecks = 16.67f;
     public float timeSinceLastPositionCheck = 0;
-    public FollowMouseMovement playerMovement;
+    public PlayerActions playerMovement;
 
     public Color circleTrailColor;
     public Color defaultColor;
@@ -61,6 +63,21 @@ public class CursorManager : MonoBehaviour
     [SerializeField]
     Vector2 boxcastSize;
 
+    [SerializeField]
+    float circleDeviationRequirement;
+
+    [SerializeField]
+    float circleTotalDistanceRequirement;
+
+    [SerializeField]
+    float circleYDisplacementRequirement;
+
+    bool circleFinished;
+
+    public GameObject frontTrailCollider;
+
+    public GameObject backTrailCollider;
+
     Ray2D rayToDraw;
 
     // Start is called before the first frame update
@@ -83,8 +100,9 @@ public class CursorManager : MonoBehaviour
             lineRenderer.positionCount = 0;
             lastMousePositions.Clear();
             initialPress = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            circleFinished = false;
         }
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0) && !circleFinished)
         {
             timeSinceInitialTouch += Time.deltaTime;
             timeSinceLastPositionCheck += Time.deltaTime;
@@ -96,6 +114,7 @@ public class CursorManager : MonoBehaviour
         }
         else if (Input.GetMouseButtonUp(0))
         {
+            
             if (lineRenderer.positionCount < positionsToTrack)
             {
                 TapEmptySpaceCheck(lastMousePositions[0]);
@@ -115,6 +134,13 @@ public class CursorManager : MonoBehaviour
             }
             lineRenderer.positionCount = 0;
             lastMousePositions.Clear();
+            deviation = 0;
+            totalLineDistance = 0;
+            velocity = 0;
+            positionsToTrack = defaultPositionsToTrack;
+            frontTrailCollider.SetActive(false);
+            backTrailCollider.SetActive(false);
+
         }
         else
         {
@@ -162,11 +188,62 @@ public class CursorManager : MonoBehaviour
 
     private void DragEmptySpaceCheck()
     {
-        if(timeSinceInitialTouch >= timeRequiredForDrag)
+        if(attack == AttackType.DragEmptySpace)
+        {
+            frontTrailCollider.SetActive(true);
+            backTrailCollider.SetActive(true);
+            frontTrailCollider.transform.position = GetLatestPosition();
+            backTrailCollider.transform.position = GetOldestPosition();
+        }
+
+        if (timeSinceInitialTouch >= timeRequiredForDrag)
         {
             attack = AttackType.DragEmptySpace;
-            playerMovement.DragFire(GetLatestPosition());
-            Debug.Log("DragEmptySpace");
+            positionsToTrack = dragPositionsToTrack;
+            lineRenderer.colorGradient.colorKeys[0] = new GradientColorKey(circleTrailColor, 0.4f);
+            
+            //playerMovement.DragFire(GetLatestPosition());
+            //Debug.Log("DragEmptySpace");
+        }
+        else
+        {
+            
+        }
+    }
+
+    public void CircleCheck()
+    {
+        //Have two colliders, one at the newest point one at the oldest point
+        //If newest and oldest collide and deviation is high enough, its probably a circle
+        //This is to prevent circle detectoin when the player is just swiping back and forth
+        if(totalLineDistance >= circleTotalDistanceRequirement && deviation >= circleDeviationRequirement)
+        {
+
+            //Ensure the max y displacement is met
+            float maxY = GetLatestPosition().y;
+            float minY = GetLatestPosition().y;
+            for(int i = 0; i < lastMousePositions.Count; i++)
+            {
+                if(lastMousePositions[i].y > maxY)
+                {
+                    maxY = lastMousePositions[i].y;
+                }
+                else if (lastMousePositions[i].y < minY)
+                {
+                    minY = lastMousePositions[i].y;
+                }
+            }
+            if(maxY-minY >= circleYDisplacementRequirement)
+            {
+                Debug.Log("Circle");
+                circleFinished = true;
+                lineRenderer.colorGradient.colorKeys[0] = new GradientColorKey(defaultColor, 0.4f);
+
+                positionsToTrack = defaultPositionsToTrack;
+                frontTrailCollider.SetActive(false);
+                backTrailCollider.SetActive(false);
+            }
+
         }
     }
 
@@ -174,7 +251,6 @@ public class CursorManager : MonoBehaviour
     {
         if(deviation >= dragEmptySpaceDeviationRequirement && (attack == AttackType.Undecided || attack == AttackType.ScratchEmptySpace) )
         {
-            //
             attack = AttackType.ScratchEmptySpace;
             playerMovement.Scratch(GetLatestPosition());
             Debug.Log("ScratchEmptySpace");
@@ -193,8 +269,6 @@ public class CursorManager : MonoBehaviour
 
     private void CalculateVelocityDeviation()
     {
-        if (lineRenderer.positionCount == lastMousePositions.Count) //prevents check from occuring before 5 mouse positions are recorded
-        {
             totalLineDistance = 0f;
             for (int i = 0; i < lastMousePositions.Count - 1; i++) //stop on the second to last to avoid invalid index
             {
@@ -203,7 +277,7 @@ public class CursorManager : MonoBehaviour
             deviation = Mathf.Abs(totalLineDistance - Vector2.Distance(lastMousePositions[0], lastMousePositions[lastMousePositions.Count - 1]));
 
             velocity = totalLineDistance / (positionsToTrack); //
-        }
+        
     }
 
     
@@ -293,6 +367,10 @@ public class CursorManager : MonoBehaviour
         return lastMousePositions[0];
     }
 
+    public Vector2 GetOldestPosition()
+    {
+        return lastMousePositions[lastMousePositions.Count - 1];
+    }
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.blue;

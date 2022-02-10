@@ -37,10 +37,10 @@ public class FireObject : MonoBehaviour
             return;
         }
 
-        if(activeTime > killTime/3 && !played)
-        {
-            fireSound.Play();
-            played = true;
-        }
+        //if(activeTime > killTime/3 && !played)
+        //{
+        //    fireSound.Play();
+        //    played = true;
+        //}
     }
 }
