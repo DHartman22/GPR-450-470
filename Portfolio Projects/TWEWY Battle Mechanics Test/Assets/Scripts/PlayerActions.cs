@@ -335,7 +335,7 @@ public class PlayerActions : MonoBehaviour
         {
             Slash();
         }
-        if(scratching)
+        if(scratching) //theres a bug where scratching doesnt stop
         {
             timeSinceLastScreenShake += Time.deltaTime;
             if (shakeUp)
