@@ -19,8 +19,27 @@ public class CursorManager : MonoBehaviour
     public float timeSinceLastPositionCheck = 0;
     public FollowMouseMovement playerMovement;
 
+    public Color circleTrailColor;
+    public Color defaultColor;
+
     public LayerMask enemy;
     public LayerMask player;
+
+    public float timeForMouseDrag;
+    public float maxTimeForTap;
+
+    public enum AttackType
+    {
+        Undecided,
+        Moving,
+        ScratchEmptySpace,
+        TapEmptySpace,
+        DragEmptySpace,
+        MovePlayer,
+        SlashEnemy
+    }
+
+    public AttackType attack;
 
     [SerializeField]
     float totalLineDistance;
@@ -29,6 +48,20 @@ public class CursorManager : MonoBehaviour
     float slashDeviationLimit;
     [SerializeField]
     float slashVelocityRequirement;
+
+    [SerializeField]
+    float dragEmptySpaceDeviationRequirement;
+
+    [SerializeField]
+    float timeSinceInitialTouch;
+
+    [SerializeField]
+    float timeRequiredForDrag;
+
+    [SerializeField]
+    Vector2 boxcastSize;
+
+    Ray2D rayToDraw;
 
     // Start is called before the first frame update
     void Start()
@@ -45,12 +78,15 @@ public class CursorManager : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            timeSinceInitialTouch = 0;
+            attack = AttackType.Undecided;
             lineRenderer.positionCount = 0;
             lastMousePositions.Clear();
             initialPress = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         }
         if (Input.GetMouseButton(0))
         {
+            timeSinceInitialTouch += Time.deltaTime;
             timeSinceLastPositionCheck += Time.deltaTime;
             if (timeSinceLastPositionCheck >= timeBetweenPositionChecks)
             {
@@ -62,15 +98,20 @@ public class CursorManager : MonoBehaviour
         {
             if (lineRenderer.positionCount < positionsToTrack)
             {
+                TapEmptySpaceCheck(lastMousePositions[0]);
                 return;
             }
             if(playerMovement.moving)
             {
                 playerMovement.EndMove();
+                
             }
             else
             {
                 SlashCheck();
+                TapEmptySpaceCheck(lastMousePositions[0]);
+                playerMovement.EndDrag();
+                playerMovement.EndScratch();
             }
             lineRenderer.positionCount = 0;
             lastMousePositions.Clear();
@@ -89,6 +130,56 @@ public class CursorManager : MonoBehaviour
         DrawCursorTrail();
         //SlashCheck();
         PlayerDragCheck();
+        if(attack == AttackType.Undecided)
+        {
+            EmptySpaceScratchCheck();
+            DragEmptySpaceCheck();
+        }
+        if(attack == AttackType.DragEmptySpace)
+        {
+            DragEmptySpaceCheck();
+
+        }
+        if (attack == AttackType.ScratchEmptySpace)
+        {
+            EmptySpaceScratchCheck();
+
+        }
+    }
+
+    void TapEmptySpaceCheck(Vector2 target)
+    {
+        if (attack != AttackType.Undecided)
+            return;
+
+        if(maxTimeForTap >= timeSinceInitialTouch)
+        {
+            Debug.Log("TapEmptySpace");
+            attack = AttackType.TapEmptySpace;
+            playerMovement.Shoot(target);
+        }
+    }
+
+    private void DragEmptySpaceCheck()
+    {
+        if(timeSinceInitialTouch >= timeRequiredForDrag)
+        {
+            attack = AttackType.DragEmptySpace;
+            playerMovement.DragFire(GetLatestPosition());
+            Debug.Log("DragEmptySpace");
+        }
+    }
+
+    private void EmptySpaceScratchCheck()
+    {
+        if(deviation >= dragEmptySpaceDeviationRequirement && (attack == AttackType.Undecided || attack == AttackType.ScratchEmptySpace) )
+        {
+            //
+            attack = AttackType.ScratchEmptySpace;
+            playerMovement.Scratch(GetLatestPosition());
+            Debug.Log("ScratchEmptySpace");
+            
+        }
     }
 
     private void PlayerDragCheck()
@@ -96,6 +187,7 @@ public class CursorManager : MonoBehaviour
         if(Vector2.Distance(initialPress, playerMovement.gameObject.transform.position) < playerMovement.playerDragRadius || playerMovement.moving)
         {
             playerMovement.Move(lastMousePositions[0]);
+            attack = AttackType.MovePlayer;
         }
     }
 
@@ -118,6 +210,9 @@ public class CursorManager : MonoBehaviour
 
     private void SlashCheck()
     {
+        if (attack != AttackType.Undecided)
+            return;
+
         if(lineRenderer.positionCount == lastMousePositions.Count) //prevents check from occuring before 5 mouse positions are recorded
         {
             //Take the first and last recorded positions of the line 
@@ -137,16 +232,17 @@ public class CursorManager : MonoBehaviour
 
                 //Raycast to determine what is being slashed
 
-                for (int i = 0; i < lastMousePositions.Count - 1; i++) 
-                {
-                    RaycastHit2D hit = Physics2D.Raycast(lastMousePositions[i], lastMousePositions[lastMousePositions.Count - 1]);
-
+                    RaycastHit2D hit = Physics2D.Raycast(lastMousePositions[lastMousePositions.Count - 1], (lastMousePositions[0] - lastMousePositions[lastMousePositions.Count - 1]).normalized,
+                        Vector2.Distance(lastMousePositions[lastMousePositions.Count - 1], lastMousePositions[0]));
+                    //Debug.DrawRay(GetLatestPosition(), hit.point, Color.yellow);
+                    //RaycastHit2D hit = Physics2D.cast(lastMousePositions[(lastMousePositions.Count - 1)/2], boxcastSize, 0, );
                     if (hit.collider != null)
                     {
                         if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Enemy"))
                         {
                             Debug.Log("Slash Enemy");
                             playerMovement.StartSlash(hit.collider.transform.position);
+                            attack = AttackType.SlashEnemy;
                             return;
                         }
                         else if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Player"))
@@ -158,7 +254,7 @@ public class CursorManager : MonoBehaviour
                     {
                         Debug.Log("Slash Empty Space");
                     }
-                }
+                
                 
             }
             else
@@ -198,7 +294,8 @@ public class CursorManager : MonoBehaviour
     }
 
     private void OnDrawGizmos()
-    { 
+    {
+        Gizmos.color = Color.blue;
         //Gizmos.DrawLine(lastMousePositions[0], lastMousePositions[lastMousePositions.Count-1]);
     }
 }
