@@ -19,13 +19,12 @@ public class CohesionSteer : MonoBehaviour
 
         foreach (FlockingAgent b in boids)
         {
-            pointToSeparateFrom += ((position - (Vector2)b.transform.position).normalized);
             avgPos += (Vector2)b.transform.position;
         }
         avgPos /= boids.Count;
 
         //Debug.DrawRay(position, (avgPos - position).normalized, Color.green);
-        return (avgPos - position).normalized;
+        return (avgPos).normalized;
 
     }
     private void OnDrawGizmos()

@@ -61,7 +61,7 @@ public class ObstacleAvoidanceSteering : MonoBehaviour
             //do the contact normal stuff
             if (hitList[0].collider.gameObject.layer == 7)
             {
-                contactNormal = hitList[0].collider.gameObject.GetComponent<Plane>().normal;
+                contactNormal = hitList[0].collider.gameObject.GetComponent<Plane>().normal + (hitList[0].point - (Vector2)transform.position).normalized;
             }
             else
             {
@@ -90,7 +90,7 @@ public class ObstacleAvoidanceSteering : MonoBehaviour
                     //do the contact normal stuff
                     if (hitList[1].collider.gameObject.layer == 7)
                     {
-                        contactNormal = hitList[1].collider.gameObject.GetComponent<Plane>().normal;
+                        contactNormal = hitList[1].collider.gameObject.GetComponent<Plane>().normal + (hitList[1].point - (Vector2)transform.position).normalized;
                     }
                     else
                     {
@@ -110,7 +110,7 @@ public class ObstacleAvoidanceSteering : MonoBehaviour
                     //do the contact normal stuff
                     if (hitList[2].collider.gameObject.layer == 7)
                     {
-                        contactNormal = hitList[2].collider.gameObject.GetComponent<Plane>().normal;
+                        contactNormal = hitList[2].collider.gameObject.GetComponent<Plane>().normal + (hitList[2].point - (Vector2)transform.position).normalized;
                     }
                     else
                     {
@@ -134,7 +134,7 @@ public class ObstacleAvoidanceSteering : MonoBehaviour
                     //do the contact normal stuff
                     if (hitList[2].collider.gameObject.layer == 7)
                     {
-                        contactNormal = hitList[2].collider.gameObject.GetComponent<Plane>().normal;
+                        contactNormal = hitList[2].collider.gameObject.GetComponent<Plane>().normal + (hitList[2].point - (Vector2)transform.position).normalized;
                     }
                     else
                     {
@@ -153,7 +153,7 @@ public class ObstacleAvoidanceSteering : MonoBehaviour
                     //do the contact normal stuff
                     if (hitList[1].collider.gameObject.layer == 7)
                     {
-                        contactNormal = hitList[1].collider.gameObject.GetComponent<Plane>().normal;
+                        contactNormal = hitList[1].collider.gameObject.GetComponent<Plane>().normal + (hitList[1].point - (Vector2)transform.position).normalized;
                     }
                     else
                     {
