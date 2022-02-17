@@ -1,5 +1,95 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &105616890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 105616891}
+  m_Layer: 8
+  m_Name: LeftRay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &105616891
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105616890}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0.6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7071654950925946049}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &674780153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 674780154}
+  m_Layer: 8
+  m_Name: RightRay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &674780154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674780153}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: -0.6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7071654950925946049}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2018189935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2018189936}
+  m_Layer: 8
+  m_Name: CenterRay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2018189936
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018189935}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7071654950925946049}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7071654949540131101
 GameObject:
   m_ObjectHideFlags: 0
@@ -25,7 +115,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7071654949540131101}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.228, y: 0, z: 0}
+  m_LocalPosition: {x: 0.235, y: -0.004, z: 0}
   m_LocalScale: {x: 0.55586, y: 0.55586, z: 0.55586}
   m_Children: []
   m_Father: {fileID: 7071654950925946049}
@@ -94,8 +184,7 @@ GameObject:
   - component: {fileID: 7071654950925946049}
   - component: {fileID: 7071654950925946048}
   - component: {fileID: 7071654950925946063}
-  - component: {fileID: 7071654950925946062}
-  - component: {fileID: 837652778}
+  - component: {fileID: 837652774}
   m_Layer: 0
   m_Name: FlockingAgent
   m_TagString: Untagged
@@ -115,6 +204,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7071654949540131100}
+  - {fileID: 2018189936}
+  - {fileID: 105616891}
+  - {fileID: 674780154}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -132,15 +224,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mass: 1
   speed: 0.01
-  maxSpeed: 0.5
+  maxSpeed: 0.1
   maxForce: 0.1
   velocity: {x: 0, y: 0}
   direction: {x: 0, y: 0}
-  seekFleeWeight: 0
-  alignWeight: 0
-  cohesionWeight: 0
-  seekFlee: {fileID: 7071654950925946062}
-  separation: {fileID: 837652778}
+  axis: {x: 0, y: 0, z: 1}
+  obstacleAvoidance: {fileID: 837652774}
 --- !u!212 &7071654950925946063
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -193,7 +282,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7071654950925946062
+--- !u!114 &837652774
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -202,22 +291,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 7071654950925946050}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99852421bb3dac547a4859c0d5656158, type: 3}
+  m_Script: {fileID: 11500000, guid: bc0e332e39ad757478ad43998fe22e3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seekFleePoint: {fileID: 0}
-  maxSpeed: 0
-  mode: 0
---- !u!114 &837652778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7071654950925946050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c414582010bfc0489740d10d1458a62, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  separationDistance: 5
+  agentDirection: {x: 0, y: 0}
+  leftRayDir: {x: 0, y: 0}
+  rightRayDir: {x: 0, y: 0}
+  desiredDirection: {x: 0, y: 0}
+  maxDistance: 3
+  speed: 1
+  correctionSpeed: 1
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 64
+  planeMask:
+    serializedVersion: 2
+    m_Bits: 128
+  obstacleDetected: 0
+  timeSpentTurning: 0
+  turningSpeed: 0
+  angleDifferenceBetweenRays: 0
+  centerRay: {fileID: 2018189935}
+  leftRay: {fileID: 105616890}
+  rightRay: {fileID: 674780153}
+  stupidRayDistanceFromObstacle: 2
+  up: {x: 0, y: 1, z: 0}
+  lineRenderer: {fileID: 0}
+  isSteering: 0

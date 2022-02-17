@@ -78,6 +78,9 @@ public class CursorManager : MonoBehaviour
 
     public GameObject backTrailCollider;
 
+    public float meteorOffset;
+    public GameObject meteorProjectile;
+
     Ray2D rayToDraw;
 
     // Start is called before the first frame update
@@ -102,7 +105,7 @@ public class CursorManager : MonoBehaviour
             initialPress = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             circleFinished = false;
         }
-        if (Input.GetMouseButton(0) && !circleFinished)
+        if (Input.GetMouseButton(0))
         {
             timeSinceInitialTouch += Time.deltaTime;
             timeSinceLastPositionCheck += Time.deltaTime;
@@ -115,7 +118,7 @@ public class CursorManager : MonoBehaviour
         else if (Input.GetMouseButtonUp(0))
         {
             
-            if (lineRenderer.positionCount < positionsToTrack)
+            if (lineRenderer.positionCount < defaultPositionsToTrack)
             {
                 TapEmptySpaceCheck(lastMousePositions[0]);
                 return;
@@ -190,10 +193,20 @@ public class CursorManager : MonoBehaviour
     {
         if(attack == AttackType.DragEmptySpace)
         {
-            frontTrailCollider.SetActive(true);
-            backTrailCollider.SetActive(true);
-            frontTrailCollider.transform.position = GetLatestPosition();
-            backTrailCollider.transform.position = GetOldestPosition();
+            if(Input.GetKey(KeyCode.LeftShift))
+            {
+                frontTrailCollider.SetActive(true);
+                backTrailCollider.SetActive(true);
+                frontTrailCollider.transform.position = GetLatestPosition();
+                backTrailCollider.transform.position = GetOldestPosition();
+            }
+            else
+            {
+                frontTrailCollider.SetActive(false);
+                backTrailCollider.SetActive(false);
+                frontTrailCollider.transform.position = GetLatestPosition();
+                backTrailCollider.transform.position = GetOldestPosition();
+            }
         }
 
         if (timeSinceInitialTouch >= timeRequiredForDrag)
@@ -202,8 +215,8 @@ public class CursorManager : MonoBehaviour
             positionsToTrack = dragPositionsToTrack;
             lineRenderer.colorGradient.colorKeys[0] = new GradientColorKey(circleTrailColor, 0.4f);
             
-            //playerMovement.DragFire(GetLatestPosition());
-            //Debug.Log("DragEmptySpace");
+            playerMovement.DragFire(GetLatestPosition());
+            Debug.Log("DragEmptySpace");
         }
         else
         {
@@ -222,7 +235,10 @@ public class CursorManager : MonoBehaviour
             //Ensure the max y displacement is met
             float maxY = GetLatestPosition().y;
             float minY = GetLatestPosition().y;
-            for(int i = 0; i < lastMousePositions.Count; i++)
+            float minX = GetLatestPosition().x;
+            float maxX = GetLatestPosition().x;
+
+            for (int i = 0; i < lastMousePositions.Count; i++)
             {
                 if(lastMousePositions[i].y > maxY)
                 {
@@ -233,15 +249,32 @@ public class CursorManager : MonoBehaviour
                     minY = lastMousePositions[i].y;
                 }
             }
-            if(maxY-minY >= circleYDisplacementRequirement)
+
+            for (int i = 0; i < lastMousePositions.Count; i++)
+            {
+                if (lastMousePositions[i].x > maxX)
+                {
+                    maxX = lastMousePositions[i].x;
+                }
+                else if (lastMousePositions[i].x < minX)
+                {
+                    minX = lastMousePositions[i].x;
+                }
+            }
+
+            float centerX = minX + (maxX - minX)/2;
+            float centerY = minY + (maxY - minY)/2;
+            Vector2 center = new Vector2(centerX, centerY);
+            if (maxY-minY >= circleYDisplacementRequirement)
             {
                 Debug.Log("Circle");
                 circleFinished = true;
                 lineRenderer.colorGradient.colorKeys[0] = new GradientColorKey(defaultColor, 0.4f);
-
-                positionsToTrack = defaultPositionsToTrack;
-                frontTrailCollider.SetActive(false);
-                backTrailCollider.SetActive(false);
+                Vector2 meteorSpawn = new Vector2(centerX, centerY + meteorOffset);
+                GameObject newProj = Instantiate(meteorProjectile, meteorSpawn, Quaternion.identity);
+                newProj.GetComponent<Rigidbody2D>().velocity = (center - meteorSpawn).normalized * newProj.GetComponent<ProjectileScript>().speed;
+                lastMousePositions.Clear();
+                lineRenderer.positionCount = 0;
             }
 
         }

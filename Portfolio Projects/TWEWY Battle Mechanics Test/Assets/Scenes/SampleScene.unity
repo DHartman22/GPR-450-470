@@ -2576,6 +2576,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 562997123}
     - target: {fileID: 5101355711295264325, guid: 2bff5e612afb853408b65ce9560136d6, type: 3}
+      propertyPath: meteorOffset
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5101355711295264325, guid: 2bff5e612afb853408b65ce9560136d6, type: 3}
       propertyPath: maxTimeForTap
       value: 0.25
       objectReference: {fileID: 0}
@@ -2595,6 +2599,10 @@ PrefabInstance:
       propertyPath: playerMovement
       value: 
       objectReference: {fileID: 510660990}
+    - target: {fileID: 5101355711295264325, guid: 2bff5e612afb853408b65ce9560136d6, type: 3}
+      propertyPath: meteorProjectile
+      value: 
+      objectReference: {fileID: 3172901680503758563, guid: ea57398ab7ccbb84b8b65d35e8cf6583, type: 3}
     - target: {fileID: 5101355711295264325, guid: 2bff5e612afb853408b65ce9560136d6, type: 3}
       propertyPath: backTrailCollider
       value: 

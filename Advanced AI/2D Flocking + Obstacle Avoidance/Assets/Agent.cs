@@ -34,6 +34,8 @@ public class Agent : MonoBehaviour
     public Rigidbody2D rgd;
 
     public LineRenderer lineRenderer;
+
+    public bool isSteering = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -160,8 +162,11 @@ public class Agent : MonoBehaviour
             else
                 obstacleDetected = false;
         }
-        MoveAgent();
+        if(!isSteering)
+            MoveAgent();
     }
+
+
 
     void UpdateLines()
     {

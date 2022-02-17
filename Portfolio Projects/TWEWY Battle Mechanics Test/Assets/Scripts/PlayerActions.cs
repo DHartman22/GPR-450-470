@@ -140,6 +140,7 @@ public class PlayerActions : MonoBehaviour
         {
             slashing = false;
             immobile = false;
+            rgd.velocity = Vector2.zero;
             slashTimeElapsed = 0;
             return;
         }
@@ -245,6 +246,7 @@ public class PlayerActions : MonoBehaviour
 
     public void DragFire(Vector2 target)
     {
+        Debug.Log("FIRE!");
         if(!dragging)
         {
             StartDragging();
@@ -254,7 +256,10 @@ public class PlayerActions : MonoBehaviour
         {
             timeSinceLastFire = 0;
             GameObject fire;
-            fire = Instantiate(fireObj, target, Quaternion.identity);
+            if(!Input.GetKey(KeyCode.LeftShift))
+            {
+                fire = Instantiate(fireObj, target, Quaternion.identity);
+            }
         }
     }
     public void EndDrag()
