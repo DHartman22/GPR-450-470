@@ -321,10 +321,10 @@ public class ObstacleAvoidanceSteering : MonoBehaviour
     private void OnDrawGizmos()
     {
         
-        Gizmos.color = Color.cyan;
-        Gizmos.DrawLine(transform.position, rays[0].GetPoint(Vector3.Distance(transform.position, centerRay.transform.position)));
-        Gizmos.DrawLine(transform.position, rays[1].GetPoint(Vector3.Distance(transform.position, leftRay.transform.position)));
-        Gizmos.DrawLine(transform.position, rays[2].GetPoint(Vector3.Distance(transform.position, rightRay.transform.position)));
+        //Gizmos.color = Color.cyan;
+        //Gizmos.DrawLine(transform.position, rays[0].GetPoint(Vector3.Distance(transform.position, centerRay.transform.position)));
+        //Gizmos.DrawLine(transform.position, rays[1].GetPoint(Vector3.Distance(transform.position, leftRay.transform.position)));
+        //Gizmos.DrawLine(transform.position, rays[2].GetPoint(Vector3.Distance(transform.position, rightRay.transform.position)));
 
     }
 }

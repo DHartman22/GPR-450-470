@@ -33,8 +33,11 @@ public class FlockingAgent : MonoBehaviour
     void MoveAgent()
     {
         Vector2 steer = GetSteering();
-        velocity += velocity + steer;
-        velocity = velocity.normalized * maxSpeed;
+        Vector2 steerForce = Vector2.ClampMagnitude(steer, maxForce);
+        Vector2 accel = steerForce / mass;
+        velocity = Vector2.ClampMagnitude(velocity + accel, maxSpeed);
+        //velocity += velocity + steer;
+        //velocity = velocity.normalized * maxSpeed;
         float targetAngle = Mathf.Atan2(velocity.normalized.y, velocity.normalized.x) * Mathf.Rad2Deg;
 
         targetAngle = Quaternion.AngleAxis(targetAngle, axis).eulerAngles.z;

@@ -15,7 +15,10 @@ public class FlowFieldGrid : MonoBehaviour
     public GridCell targetCell;
     public GameObject targetIndicator;
     public float cellExtents;
-
+    public int impassibleCost = 255;
+    public int roughCost = 3;
+    public LayerMask impassible;
+    public LayerMask rough;
     public enum Directions
     {
         North,
@@ -113,10 +116,19 @@ public class FlowFieldGrid : MonoBehaviour
                 
                 foreach(Collider c in colliders)
                 {
-                    if(c.gameObject.layer == LayerMask.GetMask("Obstacle")) 
+                    if(c.gameObject.layer == impassible) 
                     {
                         cells[i][j].cost = 255;
+                        cells[i][j].bestCost = int.MaxValue;
+
                         cells[i][j].impassable = true;
+                    }
+                    if (c.gameObject.layer == rough)
+                    {
+                        cells[i][j].cost = roughCost;
+                        cells[i][j].bestCost = int.MaxValue;
+
+                        cells[i][j].impassable = false;
                     }
                 }
 
@@ -184,6 +196,7 @@ public class FlowFieldGrid : MonoBehaviour
                 }
             }
         }
+        
     }
 
     List<GridCell> GetNeighborCells(Vector2 cellCoords)

@@ -6,11 +6,19 @@ public class FlowFieldSteer : MonoBehaviour
 {
     public FlowFieldGrid flowField;
     public float maxSpeed;
-    public Vector2 GetSteering(Vector2 position, Vector2 velocity)
+    public Vector2 GetSteering(Vector2 position, Vector2 velocity, FlockingAgent agent)
     {
         GridCell currentCell = flowField.WorldSpaceToCell(position);
-
         Vector2 desiredVel = currentCell.direction * maxSpeed;
+        if(currentCell.bestCost == 0)
+        {
+            agent.velocity = Vector2.zero;
+            return Vector2.zero;
+        }
+        if(currentCell.impassable)
+        {
+            Debug.Log("Impassible");
+        }
         return desiredVel;
 
     }

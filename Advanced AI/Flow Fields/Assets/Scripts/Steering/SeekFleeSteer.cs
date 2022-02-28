@@ -41,21 +41,21 @@ public class SeekFleeSteer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButton(0))
-        {
-            active = true;
-            seekFleePoint.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            mode = SeekOrFlee.Seek;
-        }
-        else if (Input.GetMouseButton(1))
-        {
-            active = true;
-            seekFleePoint.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            mode = SeekOrFlee.Flee;
-        }
-        else
-        {
-            active = false;
-        }
+        //if(Input.GetMouseButton(0))
+        //{
+        //    active = true;
+        //    seekFleePoint.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        //    mode = SeekOrFlee.Seek;
+        //}
+        //else if (Input.GetMouseButton(1))
+        //{
+        //    active = true;
+        //    seekFleePoint.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        //    mode = SeekOrFlee.Flee;
+        //}
+        //else
+        //{
+        //    active = false;
+        //}
     }
 }

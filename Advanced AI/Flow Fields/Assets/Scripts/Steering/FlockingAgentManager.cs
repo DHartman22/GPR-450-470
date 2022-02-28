@@ -46,7 +46,7 @@ public class FlockingAgentManager : MonoBehaviour
         //Vector2 obstacleAvoidance = agent.GetObstacleAvoidanceSteering() * obstacleAvoidanceWeight;
         //if (obstacleAvoidance == Vector2.zero)
         //{
-        //    totalSteering += separation.GetSteering(agent.transform.position, agent, separationRadius) * separationWeight;
+            totalSteering += separation.GetSteering(agent.transform.position, agent, separationRadius) * separationWeight;
         //    totalSteering += cohesion.GetSteering(agent.transform.position, agent, cohesionRadius) * cohesionWeight;
         //    totalSteering += alignment.GetSteering(agent.transform.position, agent, alignmentRadius) * alignmentWeight;
         //    totalSteering += seekFlee.GetSteering(agent.transform.position, agent.velocity) * seekFleeWeight;
@@ -54,7 +54,7 @@ public class FlockingAgentManager : MonoBehaviour
         //else
         //    totalSteering += obstacleAvoidance;
 
-        totalSteering += flow.GetSteering(agent.transform.position, agent.velocity);
+        totalSteering += flow.GetSteering(agent.transform.position, agent.velocity, agent);
 
         return totalSteering;
     }
