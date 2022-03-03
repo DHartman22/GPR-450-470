@@ -19,6 +19,10 @@ public class FlowFieldGrid : MonoBehaviour
     public int roughCost = 3;
     public LayerMask impassible;
     public LayerMask rough;
+    public float timeBetweenRefreshes;
+    public float timeSinceLastRefresh;
+    public Vector2 clickPos;
+    public bool initted;
     public enum Directions
     {
         North,
@@ -65,26 +69,42 @@ public class FlowFieldGrid : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            Vector3 clickPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector2 closestCellCoords = new Vector2(-1, -1);
-            float shortestDistance = 100000f;
-            for (int i = 0; i < gridWidth; i++)
+            clickPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            initted = true;
+            //RefreshFlowField();
+        }
+    }
+
+    void FlowFieldRefreshTimer()
+    {
+        timeSinceLastRefresh += Time.deltaTime;
+        if(timeSinceLastRefresh > timeBetweenRefreshes)
+        {
+            RefreshFlowField();
+            timeSinceLastRefresh -= timeBetweenRefreshes;
+        }
+    }
+
+    public void RefreshFlowField()
+    {
+        Vector2 closestCellCoords = new Vector2(-1, -1);
+        float shortestDistance = 100000f;
+        for (int i = 0; i < gridWidth; i++)
+        {
+            for (int j = 0; j < gridHeight; j++)
             {
-                for (int j = 0; j < gridHeight; j++)
+                if (Vector3.Distance(clickPos, cells[i][j].transform.position) < shortestDistance)
                 {
-                    if(Vector3.Distance(clickPos, cells[i][j].transform.position) < shortestDistance)
-                    {
-                        shortestDistance = Vector3.Distance(clickPos, cells[i][j].transform.position);
-                        closestCellCoords = cells[i][j].cellCoords;
-                    }
+                    shortestDistance = Vector3.Distance(clickPos, cells[i][j].transform.position);
+                    closestCellCoords = cells[i][j].cellCoords;
                 }
             }
-            targetCell = cells[(int)closestCellCoords.x][(int)closestCellCoords.y];
-            targetIndicator.transform.position = targetCell.transform.position;
-            //Recreate cost field
-            GenerateCostField();
-            GenerateIndicationField(targetCell);
         }
+        targetCell = cells[(int)closestCellCoords.x][(int)closestCellCoords.y];
+        targetIndicator.transform.position = targetCell.transform.position;
+        //Recreate cost field
+        GenerateCostField();
+        GenerateIndicationField(targetCell);
     }
 
     public GridCell WorldSpaceToCell(Vector3 worldPos)
@@ -116,14 +136,14 @@ public class FlowFieldGrid : MonoBehaviour
                 
                 foreach(Collider c in colliders)
                 {
-                    if(c.gameObject.layer == impassible) 
+                    if(c.gameObject.layer == LayerMask.NameToLayer("Obstacle")) 
                     {
-                        cells[i][j].cost = 255;
+                        cells[i][j].cost = impassibleCost;
                         cells[i][j].bestCost = int.MaxValue;
 
                         cells[i][j].impassable = true;
                     }
-                    if (c.gameObject.layer == rough)
+                    if (c.gameObject.layer == LayerMask.NameToLayer("RoughTerrain") && !cells[i][j].impassable)
                     {
                         cells[i][j].cost = roughCost;
                         cells[i][j].bestCost = int.MaxValue;
@@ -147,8 +167,41 @@ public class FlowFieldGrid : MonoBehaviour
     void GenerateIndicationField(GridCell destinationCell)
     {
         targetCell = destinationCell;
+        
+        // If the target cell becomes an impassable cell for any reason, find the nearest passable cell to target
+
+        if(targetCell.impassable)
+        {
+            Queue<GridCell> newTargetQueue = new Queue<GridCell>();
+
+            newTargetQueue.Enqueue(targetCell);
+            bool exitLoop = false;
+            while (newTargetQueue.Count > 0)
+            {
+                GridCell currentCell = newTargetQueue.Dequeue();
+                List<GridCell> neighbors = GetNeighborCells(currentCell.cellCoords);
+                foreach (GridCell neighborCell in neighbors)
+                {
+                    if (!neighborCell.impassable)
+                    {
+                        targetCell = neighborCell;
+                        exitLoop = true;
+                        break;
+
+                    }
+                    else
+                    {
+                        newTargetQueue.Enqueue(neighborCell);
+
+                    }
+                }
+                if (exitLoop)
+                    break;
+            }
+        }
         targetCell.cost = 0;
         targetCell.bestCost = 0;
+
 
         Queue<GridCell> cellQueue = new Queue<GridCell>();
 
@@ -184,7 +237,7 @@ public class FlowFieldGrid : MonoBehaviour
                 GridCell cellToMoveTowards;
                 foreach (GridCell neighborCell in neighbors)
                 {
-                    if (neighborCell.cost != 255)
+                    if (neighborCell.cost != impassibleCost)
                     {
                         if (neighborCell.bestCost < lowestCost)
                         {
@@ -263,5 +316,7 @@ public class FlowFieldGrid : MonoBehaviour
     void Update()
     {
         CheckInput();
+        if(initted)
+            RefreshFlowField();
     }
 }
