@@ -212,7 +212,7 @@ public class FlowFieldGrid : MonoBehaviour
             List<GridCell> neighbors = GetNeighborCells(currentCell.cellCoords);
             foreach(GridCell neighborCell in neighbors)
             {
-                if(neighborCell.cost != 255)
+                if(neighborCell.cost != impassibleCost)
                 {
                     if(neighborCell.cost + currentCell.bestCost < neighborCell.bestCost)
                     {
@@ -317,6 +317,8 @@ public class FlowFieldGrid : MonoBehaviour
     {
         CheckInput();
         if(initted)
-            RefreshFlowField();
+        {
+            FlowFieldRefreshTimer();
+        }
     }
 }
