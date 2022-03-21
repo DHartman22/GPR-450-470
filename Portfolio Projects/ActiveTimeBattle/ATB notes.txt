@@ -1,0 +1,18 @@
+What needs to be made
+
+Battle actor
+-Bool for player controlled actor
+-ATB bar that fills over time
+-Stats variables
+-Death state
+-If player controlled, UI appears over actor
+-else, attacks random player controlled actor
+
+Battle system
+-All battle actors atb bars fill at constant rate
+-During basic attack animations, atb bars continue to fill
+-Special attacks pause atb bars 
+-When any attack is confirmed, it gets added to the end of an attack queue
+	-Limit attacks can skip the queue and instantly be performed after the current attack animation is finished
+	-If two limit attacks are in the queue, it prioritizes the most recently used limit attack
+
