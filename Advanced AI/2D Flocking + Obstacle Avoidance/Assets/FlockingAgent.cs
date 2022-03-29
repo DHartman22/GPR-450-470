@@ -14,7 +14,12 @@ public class FlockingAgent : MonoBehaviour
     FlockingAgentManager manager;
     public Vector3 axis;
     public ObstacleAvoidanceSteering obstacleAvoidance;
-    
+    public bool isObstacleAvoiding = false; //Prevents other agents from using this agent's position for flocking purposes while obstacle avoiding
+    [SerializeField]
+    float turnSmoothTime = 0.1f;
+
+    float turnSmoothVelocity;
+
     Vector2 GetSteering()
     {
         return manager.GetSteering(this);
@@ -27,15 +32,16 @@ public class FlockingAgent : MonoBehaviour
 
     void MoveAgent()
     {
-
-        velocity += velocity + GetSteering();
+        Vector2 steer = GetSteering();
+        velocity += velocity + steer;
         velocity = velocity.normalized * maxSpeed;
-        //transform.Rotate(new Vector3(0, 0, 1), Vector3.Angle(transform.position.normalized, (Vector3)velocity.normalized));
-        float angle = Mathf.Atan2(velocity.normalized.y, velocity.normalized.x) * Mathf.Rad2Deg;
+        float targetAngle = Mathf.Atan2(velocity.normalized.y, velocity.normalized.x) * Mathf.Rad2Deg;
+
+        targetAngle = Quaternion.AngleAxis(targetAngle, axis).eulerAngles.z;
+        float angle = Mathf.SmoothDampAngle(transform.eulerAngles.z, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
         transform.position = transform.position + (Vector3)velocity;
         transform.rotation = Quaternion.AngleAxis(angle, axis);
         
-        //transform.LookAt(transform.position + (Vector3)velocity);
     }
 
     // Start is called before the first frame update

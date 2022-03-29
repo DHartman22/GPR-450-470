@@ -17,11 +17,10 @@ public class SeparationSteer : MonoBehaviour
 
         foreach (FlockingAgent b in boids)
         {
-            
-            float distance = Vector2.Distance(position, b.transform.position);
-            steering += ((Vector2)b.transform.position - position);
-            //pointToSeparateFrom += ((position - (Vector2)b.transform.position).normalized);
-
+            if(!b.isObstacleAvoiding)
+            {
+                steering += ((Vector2)b.transform.position - position);
+            }
         }
         steering /= boids.Count;
         steering *= -1;

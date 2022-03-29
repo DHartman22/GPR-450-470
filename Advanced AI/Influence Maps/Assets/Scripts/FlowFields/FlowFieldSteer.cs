@@ -10,7 +10,7 @@ public class FlowFieldSteer : MonoBehaviour
     {
         GridCell currentCell = flowField.WorldSpaceToCell(position);
         Vector2 desiredVel = currentCell.direction * maxSpeed;
-        if(currentCell.bestCost == 0) //Destination reached
+        if(currentCell.influence == 0) //Destination reached
         {
             agent.velocity = Vector2.zero;
             return Vector2.zero;

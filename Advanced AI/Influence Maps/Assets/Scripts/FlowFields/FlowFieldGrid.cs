@@ -139,14 +139,14 @@ public class FlowFieldGrid : MonoBehaviour
                     if(c.gameObject.layer == LayerMask.NameToLayer("Obstacle")) 
                     {
                         cells[i][j].cost = impassibleCost;
-                        cells[i][j].bestCost = int.MaxValue;
+                        cells[i][j].influence = int.MaxValue;
 
                         cells[i][j].impassable = true;
                     }
                     if (c.gameObject.layer == LayerMask.NameToLayer("RoughTerrain") && !cells[i][j].impassable)
                     {
                         cells[i][j].cost = roughCost;
-                        cells[i][j].bestCost = int.MaxValue;
+                        cells[i][j].influence = int.MaxValue;
 
                         cells[i][j].impassable = false;
                     }
@@ -155,7 +155,7 @@ public class FlowFieldGrid : MonoBehaviour
                 if(colliders.Length == 0)
                 {
                     cells[i][j].cost = 1;
-                    cells[i][j].bestCost = int.MaxValue;
+                    cells[i][j].influence = int.MaxValue;
 
                     cells[i][j].impassable = false;
                 }
@@ -200,7 +200,7 @@ public class FlowFieldGrid : MonoBehaviour
             }
         }
         targetCell.cost = 0;
-        targetCell.bestCost = 0;
+        targetCell.influence = 0;
 
 
         Queue<GridCell> cellQueue = new Queue<GridCell>();
@@ -214,9 +214,9 @@ public class FlowFieldGrid : MonoBehaviour
             {
                 if(neighborCell.cost != impassibleCost)
                 {
-                    if(neighborCell.cost + currentCell.bestCost < neighborCell.bestCost)
+                    if(neighborCell.cost + currentCell.influence < neighborCell.influence)
                     {
-                        neighborCell.bestCost = neighborCell.cost + currentCell.bestCost;
+                        neighborCell.influence = neighborCell.cost + currentCell.influence;
                         cellQueue.Enqueue(neighborCell);
                     }
                     
@@ -239,9 +239,9 @@ public class FlowFieldGrid : MonoBehaviour
                 {
                     if (neighborCell.cost != impassibleCost)
                     {
-                        if (neighborCell.bestCost < lowestCost)
+                        if (neighborCell.influence < lowestCost)
                         {
-                            lowestCost = neighborCell.bestCost;
+                            //(float)lowestCost = neighborCell.influence;
                             cellToMoveTowards = neighborCell;
                             cells[i][j].direction = (cellToMoveTowards.transform.position - cells[i][j].transform.position).normalized;
                         }

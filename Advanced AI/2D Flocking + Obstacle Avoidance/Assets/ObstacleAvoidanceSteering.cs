@@ -31,7 +31,7 @@ public class ObstacleAvoidanceSteering : MonoBehaviour
     public GameObject centerRay;
     public GameObject leftRay;
     public GameObject rightRay;
-    public float stupidRayDistanceFromObstacle = 1f;
+    public float newDirectionRayDistanceFromObstacle = 1f;
     public Vector3 up;
     
     public LineRenderer lineRenderer;
@@ -44,13 +44,17 @@ public class ObstacleAvoidanceSteering : MonoBehaviour
         agentDirection = (centerRay.transform.position - transform.position).normalized;
         Vector2[] rayDirs = { (centerRay.transform.position - transform.position).normalized ,
         (leftRay.transform.position - transform.position).normalized, (rightRay.transform.position - transform.position).normalized};
+
+        float maxDistanceLeftRightRay = Vector3.Distance(transform.position, leftRay.transform.position); //same distance away
         //transform.position = transform.position + (Vector3)agentDirection.normalized * speed;
         if (obstacleDetected == false)
         {
             timeSpentTurning = 0;
             desiredDirection = Vector3.zero;
+            agent.isObstacleAvoiding = false;
             return Vector2.zero;
         }
+        agent.isObstacleAvoiding = true;
         //rgd.velocity = Vector2.zero;
 
 
@@ -67,15 +71,103 @@ public class ObstacleAvoidanceSteering : MonoBehaviour
             {
                 contactNormal = (hitList[0].point - (Vector2)hitList[0].collider.transform.position).normalized;
             }
+
+            if (contactNormal == Vector2.zero)
+            {
+                Debug.Log("Straight collision??");
+                if (hitList[0].collider.gameObject.layer == 7)
+                {
+                    return hitList[0].collider.gameObject.GetComponent<Plane>().normal; 
+                }
+                else
+                {
+                    return (hitList[0].point - (Vector2)hitList[0].collider.transform.position).normalized;
+                }
+            }
             //return contactNormal;
             //this solution is really dumb but it works
             //Draws a line outwards from the contact normal, stops, then sets the steering direction to be towards this point
-            Ray stupidRay = new Ray(hitList[0].point, contactNormal);
+            Ray newDirectionRay = new Ray(hitList[0].point, contactNormal);
 
-            Debug.DrawLine(hitList[0].point, stupidRay.GetPoint(stupidRayDistanceFromObstacle), Color.green);
+            Debug.DrawLine(hitList[0].point, newDirectionRay.GetPoint(newDirectionRayDistanceFromObstacle), Color.red);
             float distanceModifier = maxDistance / Vector3.Distance(transform.position, hitList[0].point);
 
-            return (stupidRay.GetPoint(stupidRayDistanceFromObstacle) - transform.position).normalized * distanceModifier;
+            if (distanceModifier == float.PositiveInfinity)
+            {
+                //Stuck in wall solution
+                if (hitList[0].collider.gameObject.layer == 7)
+                {
+                    return hitList[0].collider.gameObject.GetComponent<Plane>().normal;
+                }
+                else
+                {
+                    return (hitList[0].point - (Vector2)hitList[0].collider.transform.position).normalized;
+                }
+            }
+
+            if (hitList[1].collider != null && hitList[2].collider != null) //Center ray is hitting plus both side rays
+            {
+                float ray1Distance = Vector2.Distance(hitList[1].point, transform.position);
+                float ray2Distance = Vector2.Distance(hitList[2].point, transform.position);
+                bool bothPlanes = hitList[1].collider.gameObject.GetComponent<Plane>() != null && hitList[2].collider.gameObject.GetComponent<Plane>() != null;
+                if(bothPlanes)
+                {
+                    if(hitList[1].collider.gameObject.GetComponent<Plane>().normal != hitList[2].collider.gameObject.GetComponent<Plane>().normal)
+                    {
+                        transform.Rotate(0, 0, 180);
+                        agent.velocity *= -1;
+                        return agent.velocity.normalized;
+                        //return (hitList[1].collider.gameObject.GetComponent<Plane>().normal + hitList[2].collider.gameObject.GetComponent<Plane>().normal).normalized;
+                    }
+                }
+                Vector3 finalSteer = Vector3.zero;
+
+                //do the contact normal stuff
+                if (hitList[2].collider.gameObject.layer == 7)
+                {
+                    contactNormal = hitList[2].collider.gameObject.GetComponent<Plane>().normal + (hitList[2].point - (Vector2)transform.position).normalized;
+                }
+                else
+                {
+                    contactNormal = (hitList[2].point - (Vector2)hitList[2].collider.transform.position).normalized;
+                }
+                newDirectionRay = new Ray(hitList[2].point, contactNormal);
+
+                Debug.DrawLine(hitList[2].point, newDirectionRay.GetPoint(newDirectionRayDistanceFromObstacle), Color.red);
+                distanceModifier = maxDistanceLeftRightRay / Vector3.Distance(transform.position, hitList[2].point);
+
+                Vector2 rightSteer = (newDirectionRay.GetPoint(newDirectionRayDistanceFromObstacle) - transform.position).normalized * distanceModifier;
+
+                //do the contact normal stuff
+                if (hitList[1].collider.gameObject.layer == 7)
+                {
+                    contactNormal = hitList[1].collider.gameObject.GetComponent<Plane>().normal + (hitList[1].point - (Vector2)transform.position).normalized;
+                }
+                else
+                {
+                    contactNormal = (hitList[1].point - (Vector2)hitList[1].collider.transform.position).normalized;
+                }
+                newDirectionRay = new Ray(hitList[1].point, contactNormal);
+                distanceModifier = maxDistanceLeftRightRay / Vector3.Distance(transform.position, hitList[1].point);
+                Debug.DrawLine(hitList[1].point, newDirectionRay.GetPoint(newDirectionRayDistanceFromObstacle), Color.red);
+
+                Vector2 leftSteer = (newDirectionRay.GetPoint(newDirectionRayDistanceFromObstacle) - transform.position).normalized * distanceModifier;
+
+                finalSteer = leftSteer + rightSteer;
+
+                if (finalSteer.magnitude < 3 && bothPlanes)
+                    finalSteer = rightSteer;
+
+                Debug.Log(finalSteer.magnitude);
+
+                finalSteer /= 2;
+
+                
+                return finalSteer; // average the two instead of picking just one to avoid shake
+
+            }
+
+            return (newDirectionRay.GetPoint(newDirectionRayDistanceFromObstacle) - transform.position).normalized;
 
         }
         else //One or both side rays hit something but not the center
@@ -96,12 +188,12 @@ public class ObstacleAvoidanceSteering : MonoBehaviour
                     {
                         contactNormal = (hitList[1].point - (Vector2)hitList[1].collider.transform.position).normalized;
                     }
-                    Ray stupidRay = new Ray(hitList[1].point, contactNormal);
+                    Ray newDirectionRay = new Ray(hitList[1].point, contactNormal);
 
-                    float distanceModifier = maxDistance/Vector3.Distance(transform.position, hitList[1].point);
-                    Debug.DrawLine(hitList[1].point, stupidRay.GetPoint(stupidRayDistanceFromObstacle), Color.red);
+                    float distanceModifier = maxDistanceLeftRightRay/Vector3.Distance(transform.position, hitList[1].point);
+                    Debug.DrawLine(hitList[1].point, newDirectionRay.GetPoint(newDirectionRayDistanceFromObstacle), Color.red);
 
-                    return (stupidRay.GetPoint(stupidRayDistanceFromObstacle) - transform.position).normalized * distanceModifier;
+                    return (newDirectionRay.GetPoint(newDirectionRayDistanceFromObstacle) - transform.position).normalized;
 
                 }
                 if (hitList[2].collider != null)
@@ -116,20 +208,20 @@ public class ObstacleAvoidanceSteering : MonoBehaviour
                     {
                         contactNormal = (hitList[2].point - (Vector2)hitList[2].collider.transform.position).normalized;
                     }
-                    Ray stupidRay = new Ray(hitList[2].point, contactNormal);
-                    float distanceModifier = maxDistance / Vector3.Distance(transform.position, hitList[2].point);
+                    Ray newDirectionRay = new Ray(hitList[2].point, contactNormal);
+                    float distanceModifier = maxDistanceLeftRightRay / Vector3.Distance(transform.position, hitList[2].point);
 
-                    Debug.DrawLine(hitList[2].point, stupidRay.GetPoint(stupidRayDistanceFromObstacle), Color.red);
+                    Debug.DrawLine(hitList[2].point, newDirectionRay.GetPoint(newDirectionRayDistanceFromObstacle), Color.red);
 
-                    return (stupidRay.GetPoint(stupidRayDistanceFromObstacle) - transform.position).normalized * distanceModifier;
+                    return (newDirectionRay.GetPoint(newDirectionRayDistanceFromObstacle) - transform.position).normalized;
                 }
             }
             else if (hitList[1].collider != null && hitList[2].collider != null)
             {
                 float ray1Distance = Vector2.Distance(hitList[1].point, transform.position);
                 float ray2Distance = Vector2.Distance(hitList[2].point, transform.position);
-                if (ray1Distance > ray2Distance)
-                {
+                Vector3 finalSteer = Vector3.zero;
+
                     Vector2 contactNormal;
                     //do the contact normal stuff
                     if (hitList[2].collider.gameObject.layer == 7)
@@ -140,16 +232,13 @@ public class ObstacleAvoidanceSteering : MonoBehaviour
                     {
                         contactNormal = (hitList[2].point - (Vector2)hitList[2].collider.transform.position).normalized;
                     }
-                    Ray stupidRay = new Ray(hitList[2].point, contactNormal);
+                    Ray newDirectionRay = new Ray(hitList[2].point, contactNormal);
 
-                    Debug.DrawLine(hitList[2].point, stupidRay.GetPoint(stupidRayDistanceFromObstacle), Color.red);
-                    float distanceModifier = maxDistance / Vector3.Distance(transform.position, hitList[2].point);
+                    Debug.DrawLine(hitList[2].point, newDirectionRay.GetPoint(newDirectionRayDistanceFromObstacle), Color.red);
+                    float distanceModifier = maxDistanceLeftRightRay / Vector3.Distance(transform.position, hitList[2].point);
 
-                    return (stupidRay.GetPoint(stupidRayDistanceFromObstacle) - transform.position).normalized * distanceModifier;
-                }
-                else
-                {
-                    Vector2 contactNormal;
+                    finalSteer += (newDirectionRay.GetPoint(newDirectionRayDistanceFromObstacle) - transform.position).normalized * distanceModifier;
+
                     //do the contact normal stuff
                     if (hitList[1].collider.gameObject.layer == 7)
                     {
@@ -159,12 +248,15 @@ public class ObstacleAvoidanceSteering : MonoBehaviour
                     {
                         contactNormal = (hitList[1].point - (Vector2)hitList[1].collider.transform.position).normalized;
                     }
-                    Ray stupidRay = new Ray(hitList[1].point, contactNormal);
-                    float distanceModifier = maxDistance/Vector3.Distance(transform.position, hitList[1].point);
-                    Debug.DrawLine(hitList[1].point, stupidRay.GetPoint(stupidRayDistanceFromObstacle), Color.red);
+                    newDirectionRay = new Ray(hitList[1].point, contactNormal);
+                    distanceModifier = maxDistanceLeftRightRay /Vector3.Distance(transform.position, hitList[1].point);
+                    Debug.DrawLine(hitList[1].point, newDirectionRay.GetPoint(newDirectionRayDistanceFromObstacle), Color.red);
 
-                    return (stupidRay.GetPoint(stupidRayDistanceFromObstacle) - transform.position).normalized * distanceModifier;
-                }
+                finalSteer += (newDirectionRay.GetPoint(newDirectionRayDistanceFromObstacle) - transform.position).normalized * distanceModifier;
+
+                finalSteer /= 2;
+                return finalSteer; // average the two instead of picking just one to avoid shake
+
             }
         }
         return Vector2.zero;
@@ -191,9 +283,8 @@ public class ObstacleAvoidanceSteering : MonoBehaviour
         rays.Add(new Ray(transform.position, rightRayDir));
 
         hitList.Add(Physics2D.Raycast(transform.position, agentDirection, maxDistance));
-        hitList.Add(Physics2D.Raycast(transform.position, leftRayDir, maxDistance));
-        hitList.Add(Physics2D.Raycast(transform.position, rightRayDir, maxDistance));
-
+        hitList.Add(Physics2D.Raycast(transform.position, leftRayDir, Vector3.Distance(transform.position, leftRay.transform.position)));
+        hitList.Add(Physics2D.Raycast(transform.position, rightRayDir, Vector3.Distance(transform.position, rightRay.transform.position)));
         foreach (RaycastHit2D hit in hitList)
         {
             if (hit.collider != null)

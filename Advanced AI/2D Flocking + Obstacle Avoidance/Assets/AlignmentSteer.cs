@@ -19,7 +19,8 @@ public class AlignmentSteer : MonoBehaviour
 
         foreach (FlockingAgent b in boids)
         {
-            avgVel += b.velocity;
+            if(!b.isObstacleAvoiding)
+                avgVel += b.velocity;
         }
         avgVel /= boids.Count;
 

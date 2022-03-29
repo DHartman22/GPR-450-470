@@ -42,11 +42,17 @@ public class FlockingAgentManager : MonoBehaviour
     public Vector2 GetSteering(FlockingAgent agent)
     {
         Vector2 totalSteering = Vector2.zero;
-        //totalSteering += seekFlee.GetSteering(transform.position, velocity);
-        totalSteering += separation.GetSteering(agent.transform.position, agent, separationRadius) * separationWeight;
-        totalSteering += cohesion.GetSteering(agent.transform.position, agent, cohesionRadius) * cohesionWeight;
-        totalSteering += alignment.GetSteering(agent.transform.position, agent, alignmentRadius) * alignmentWeight;
-        totalSteering += agent.GetObstacleAvoidanceSteering() * obstacleAvoidanceWeight;
+        Vector2 obstacleAvoidance = agent.GetObstacleAvoidanceSteering() * obstacleAvoidanceWeight;
+        if (obstacleAvoidance == Vector2.zero)
+        {
+            totalSteering += separation.GetSteering(agent.transform.position, agent, separationRadius) * separationWeight;
+            totalSteering += cohesion.GetSteering(agent.transform.position, agent, cohesionRadius) * cohesionWeight;
+            totalSteering += alignment.GetSteering(agent.transform.position, agent, alignmentRadius) * alignmentWeight;
+            totalSteering += seekFlee.GetSteering(agent.transform.position, agent.velocity) * seekFleeWeight;
+        }
+        else
+            totalSteering += obstacleAvoidance;
+
         return totalSteering;
     }
 

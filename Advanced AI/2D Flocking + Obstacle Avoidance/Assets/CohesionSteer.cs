@@ -19,7 +19,8 @@ public class CohesionSteer : MonoBehaviour
 
         foreach (FlockingAgent b in boids)
         {
-            avgPos += (Vector2)b.transform.position;
+            if(!b.isObstacleAvoiding)
+                avgPos += (Vector2)b.transform.position;
         }
         avgPos /= boids.Count;
 

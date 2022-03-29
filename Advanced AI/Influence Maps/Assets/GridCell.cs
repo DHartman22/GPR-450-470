@@ -8,7 +8,7 @@ public class GridCell : MonoBehaviour
 {
     //What does it need to hold?
     public int cost;
-    public int bestCost;
+    public float influence;
     public Vector3 direction;
     public bool impassable;
     public float cellSize;
@@ -25,13 +25,18 @@ public class GridCell : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        costText.text = bestCost.ToString();
+        costText.text = influence.ToString("F2");
     }
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireCube(transform.position, Vector3.one * cellSize);
-        Gizmos.color = new Color(1f, 1f, 0f, 0.25f);
-        if(!impassable && bestCost != 0)
+        if(influence >= 0)
+            Gizmos.color = new Color(0f, 1f, 0f, Mathf.Abs(influence)/2f);
+        else
+            Gizmos.color = new Color(1f, 0f, 0f, Mathf.Abs(influence)/2f);
+
+        Gizmos.DrawSphere(transform.position, cellSize/2);
+        if(!impassable && influence != 0)
         {
             Gizmos.DrawWireSphere(transform.position + (direction.normalized/4f), gizmoSize);
             Gizmos.DrawLine(transform.position - (direction.normalized / 4f), transform.position + (direction.normalized / 4f));

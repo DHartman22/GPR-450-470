@@ -230,6 +230,8 @@ MonoBehaviour:
   direction: {x: 0, y: 0}
   axis: {x: 0, y: 0, z: 1}
   obstacleAvoidance: {fileID: 837652774}
+  isObstacleAvoiding: 0
+  turnSmoothTime: 0.1
 --- !u!212 &7071654950925946063
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -272,7 +274,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 3625043607559282579, guid: e5a1ec2a9f40056468e5c60e028e3508, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.9339623, b: 0.36478806, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -314,7 +316,7 @@ MonoBehaviour:
   centerRay: {fileID: 2018189935}
   leftRay: {fileID: 105616890}
   rightRay: {fileID: 674780153}
-  stupidRayDistanceFromObstacle: 2
+  newDirectionRayDistanceFromObstacle: 1.1
   up: {x: 0, y: 1, z: 0}
   lineRenderer: {fileID: 0}
   isSteering: 0
