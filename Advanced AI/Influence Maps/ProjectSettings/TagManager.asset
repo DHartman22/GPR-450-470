@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Boid
+  - Bullet
+  - Neutral
   layers:
   - Default
   - TransparentFX
@@ -16,10 +18,10 @@ TagManager:
   - Plane
   - Agent
   - RoughTerrain
-  - 
-  - 
-  - 
-  - 
+  - GridCell
+  - InfluenceActor
+  - Bullet
+  - Player
   - 
   - 
   - 

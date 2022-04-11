@@ -130,7 +130,7 @@ public class InfluenceMapGrid : MonoBehaviour
                     if (c.gameObject.layer == LayerMask.NameToLayer("Obstacle"))
                     {
                         cells[i][j].cost = impassibleCost;
-                        cells[i][j].influence = int.MaxValue;
+                        cells[i][j].influence = int.MinValue;
 
                         cells[i][j].impassable = true;
                     }
@@ -141,6 +141,10 @@ public class InfluenceMapGrid : MonoBehaviour
                     float newInfluence =
                         1 - Mathf.Pow((1 * (Vector3.Distance(cells[i][j].transform.position, influences[k].transform.position) / influences[k].influenceRadius)), 2);
 
+                    if (Vector3.Distance(cells[i][j].transform.position, influences[k].transform.position) < influences[k].minRange)
+                        continue;
+
+                    //reverse influence for enemies
                     if (influences[k].influenceType == InfluenceActor.InfluenceType.Negative)
                         newInfluence *= -1;
 
@@ -149,7 +153,10 @@ public class InfluenceMapGrid : MonoBehaviour
                     if (influences[k].influenceType == InfluenceActor.InfluenceType.Negative && newInfluence > 0)
                         newInfluence = 0;
 
-                    cells[i][j].influence += newInfluence;
+                    //changes how agressive the influence falloff is
+                    cells[i][j].influence += newInfluence * influences[k].influenceStrength;
+
+                    //ensure it doesn't go past 1 either way
                     if (cells[i][j].influence > 1)
                         cells[i][j].influence = 1;
                     if (cells[i][j].influence < -1)
@@ -209,6 +216,27 @@ public class InfluenceMapGrid : MonoBehaviour
             Debug.Log("Cell in direction " + direction.ToString() + " does not exist");
             return null;
         }
+    }
+
+    public GridCell GetHighestInfluenceCellInRange(FlockingAgent agent)
+    {
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(agent.gameObject.transform.position, agent.influenceDetectionRange);
+        float highestInfluence = -1;
+        GridCell highestInfluenceCell = null;
+
+        foreach(Collider2D collider in colliders) 
+        {
+            if (collider.gameObject.layer != LayerMask.NameToLayer("GridCell"))
+                continue;
+            GridCell cell = collider.gameObject.GetComponent<GridCell>();
+            if (cell.influence > highestInfluence && Vector3.Distance(agent.transform.position, cell.transform.position) < agent.influenceDetectionRange)
+            {
+                highestInfluenceCell = cell;
+                highestInfluence = cell.influence;
+            }
+        }
+
+        return highestInfluenceCell;
     }
 
     // Start is called before the first frame update
