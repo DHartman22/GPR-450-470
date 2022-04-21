@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4247519491431852560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4247519491431852566}
+  - component: {fileID: 4247519491431852561}
+  - component: {fileID: 4247519491431852570}
+  - component: {fileID: 4247519491431852565}
+  - component: {fileID: 4247519491431852564}
+  - component: {fileID: 4247519491431852567}
+  - component: {fileID: 1816952761}
+  m_Layer: 0
+  m_Name: FlockingAgentManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4247519491431852566
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4247519491431852560}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4247519491431852561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4247519491431852560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a42e54d103040b74eb372da7fc67064e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agents: []
+  seekFleeWeight: 0.12
+  cohesionWeight: 0.05
+  separationWeight: 0.01
+  alignmentWeight: 0.12
+  obstacleAvoidanceWeight: 0.15
+  seekFlee: {fileID: 4247519491431852570}
+  separation: {fileID: 4247519491431852565}
+  cohesion: {fileID: 4247519491431852564}
+  alignment: {fileID: 4247519491431852567}
+  flow: {fileID: 1816952761}
+  alignmentRadius: 7
+  cohesionRadius: 8
+  separationRadius: 0.5
+  spawnOne: {fileID: 0}
+  spawnTwo: {fileID: 0}
+  spawnThree: {fileID: 0}
+  agentObject: {fileID: 7071654950925946050, guid: 53d02bcd65d829f4f8c06a0cd8621aeb, type: 3}
+--- !u!114 &4247519491431852570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4247519491431852560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99852421bb3dac547a4859c0d5656158, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seekFleePoint: {fileID: 0}
+  maxSpeed: 7
+  active: 0
+  mode: 0
+--- !u!114 &4247519491431852565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4247519491431852560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c414582010bfc0489740d10d1458a62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4247519491431852564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4247519491431852560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8de183b489d95a428c940f553b54ed5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minDistanceToPoint: 0
+--- !u!114 &4247519491431852567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4247519491431852560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e8d03bdd49dd1b4ebc60e0551e0b8a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1816952761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4247519491431852560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c378eb24b8eda5249b78e0e99ce11257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flowField: {fileID: 0}
+  maxSpeed: 1
