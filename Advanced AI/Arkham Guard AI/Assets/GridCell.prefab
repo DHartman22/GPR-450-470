@@ -67,7 +67,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 0
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -130,7 +130,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8963142120361724867
 RectTransform:
   m_ObjectHideFlags: 0
@@ -222,7 +222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7404565723103192217}
   - component: {fileID: 7404565723103192214}
-  - component: {fileID: -5838583800431768559}
+  - component: {fileID: 5262369051337111207}
   m_Layer: 10
   m_Name: GridCell
   m_TagString: Untagged
@@ -239,7 +239,7 @@ Transform:
   m_GameObject: {fileID: 7404565723103192215}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 8963142120361724867}
   - {fileID: 9165219377844553123}
@@ -263,37 +263,24 @@ MonoBehaviour:
   bestCost: 0
   direction: {x: 0, y: 0, z: 0}
   impassable: 0
-  cellSize: 1
+  cellSize: 5
   cellCoords: {x: 0, y: 0}
   costText: {fileID: 837452042462958495}
-  gizmoSize: 0.15
+  gizmoSize: 1
   influenceIndicator: {fileID: 8516616361651442694}
---- !u!61 &-5838583800431768559
-BoxCollider2D:
+--- !u!65 &5262369051337111207
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7404565723103192215}
-  m_Enabled: 1
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8458680041304624078
 GameObject:
   m_ObjectHideFlags: 0

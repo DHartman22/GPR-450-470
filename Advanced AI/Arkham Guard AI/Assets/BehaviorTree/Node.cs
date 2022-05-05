@@ -15,7 +15,7 @@ namespace BehaviorTree
     {
         public NodeState state;
         public Node parent;
-        public List<Node> children;
+        public List<Node> children = new List<Node>();
         
         private Dictionary<string, object> _dataContext = new Dictionary<string, object>();
 
@@ -25,7 +25,8 @@ namespace BehaviorTree
         }
         public Node(List<Node> children)
         {
-
+            foreach(Node node in children)
+                Attach(node);
         }
 
         private void Attach(Node node)

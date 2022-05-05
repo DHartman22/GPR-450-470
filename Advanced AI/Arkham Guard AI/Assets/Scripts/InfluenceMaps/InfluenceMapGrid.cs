@@ -57,7 +57,7 @@ public class InfluenceMapGrid : MonoBehaviour
         {
             for (int j = 0; j < gridHeight; j++)
             {
-                GameObject newCell = Instantiate(gridCell, startingPos.position + new Vector3(cellSize * i, cellSize * j, 0), Quaternion.identity);
+                GameObject newCell = Instantiate(gridCell, startingPos.position + new Vector3(cellSize * i, cellSize * j, 0), startingPos.transform.rotation);
                 newCell.name = "Cell " + i + ", " + j;
                 cells[i][j] = newCell.GetComponent<GridCell>();
                 cells[i][j].cellCoords = new Vector2Int(i, j);
@@ -65,6 +65,7 @@ public class InfluenceMapGrid : MonoBehaviour
 
             }
         }
+        transform.Rotate(new Vector3(90, 0, 0));
     }
 
     void CheckInput()

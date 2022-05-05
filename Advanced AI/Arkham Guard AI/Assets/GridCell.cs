@@ -39,7 +39,7 @@ public class GridCell : MonoBehaviour
     }
     private void OnDrawGizmos()
     {
-        Gizmos.DrawWireCube(transform.position, Vector3.one * cellSize);
+        //Gizmos.DrawWireCube(transform.position, Vector3.one * cellSize);
         if(influence >= 0)
             Gizmos.color = new Color(0f, 1f, 0f, Mathf.Abs(influence)/2f);
         else

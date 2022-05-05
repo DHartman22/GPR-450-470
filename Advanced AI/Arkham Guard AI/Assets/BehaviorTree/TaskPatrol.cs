@@ -24,6 +24,7 @@ public class TaskPatrol : Node
 
     public override NodeState Evaluate()
     {
+        Guard self = (Guard)GetData("selfGuard");
         if(_agent.destination != _waypoints[targetWaypointIndex].position)
             _agent.SetDestination(_waypoints[targetWaypointIndex].position);
         
@@ -48,8 +49,8 @@ public class TaskPatrol : Node
                 }
             }
         }
-        Debug.Log(_transform.name + " Distance: " + Vector3.Distance(_transform.position, _agent.destination));
-
+        //Debug.Log(_transform.name + " Distance: " + Vector3.Distance(_transform.position, _agent.destination));
+        self.mode = Guard.Mode.Patrolling;
         state = NodeState.RUNNING;
         return state;
     }

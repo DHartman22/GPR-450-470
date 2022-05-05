@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4247519491431852564}
   - component: {fileID: 4247519491431852567}
   - component: {fileID: 1816952761}
+  - component: {fileID: 619461840}
   m_Layer: 0
   m_Name: FlockingAgentManager
   m_TagString: Untagged
@@ -51,14 +52,15 @@ MonoBehaviour:
   agents: []
   seekFleeWeight: 0.12
   cohesionWeight: 0.05
-  separationWeight: 0.01
+  separationWeight: 0.5
   alignmentWeight: 0.12
   obstacleAvoidanceWeight: 0.15
   seekFlee: {fileID: 4247519491431852570}
   separation: {fileID: 4247519491431852565}
   cohesion: {fileID: 4247519491431852564}
   alignment: {fileID: 4247519491431852567}
-  flow: {fileID: 1816952761}
+  flow: {fileID: 0}
+  influence: {fileID: 619461840}
   alignmentRadius: 7
   cohesionRadius: 8
   separationRadius: 0.5
@@ -126,10 +128,23 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4247519491431852560}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c378eb24b8eda5249b78e0e99ce11257, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   flowField: {fileID: 0}
   maxSpeed: 1
+--- !u!114 &619461840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4247519491431852560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c754a5c4817ccd48bc7f65c78c72611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  influenceMap: {fileID: 0}
